@@ -45,7 +45,7 @@ For an application like a meeting scheduler portal, forms can be used to add con
 
 [Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
 
-Note that multiselect option for adding 'Groups' to a Contact or a Meeting is disabled. This is because the corresponding reports listing the eligible groups (defined by their SQL queries) for each of these forms are <b>not "public"</b>. 
+Note that the multiselect input options for adding 'Groups' to a 'Contact' or a 'Meeting' are disabled. This is because the reports listing the groups defined by respective SQL queries are <b>not "public"</b>. 
 
 **JSON specification for a section of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/Docs/blob/main/meeting_form_json.json) )          
 
