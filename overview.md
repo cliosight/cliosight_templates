@@ -24,22 +24,7 @@ Our interface enable users to develop versatile data apps in a matter of few min
 ### Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we have added code generators for the two types of syntaxes used within the platform.  
 1. SQL query generator for tables and reports,     
-2. JSON body generator for element configuration.
-
-One question that might arise is,   
-<i>**Why is it not better to convert individual parts of a JSON config into instructions for an LLM (SLM) to generate the code in a preferred programming language?** </i>     
-The answer to this is, even with meticulously crafted prompts, it is not always easy to describe the fine details of complex database relations that may co-exist in an enterprise application design. With UI and automation code defined individually there is a simpler modular structure for the end goal. Changes can be done right in the config because it interprets exactly the way a user wants. Having said that, the same framework can be generalized for other programming requirements in the future.  
-<table border="0">
-<tr>
-<td>
-<img src="https://github.com/cliosight/Docs/blob/main/current_lowcode.png?raw=true">   
-</td>
-<td>
-<img src="https://raw.githubusercontent.com/cliosight/Docs/main/ai_in_cliosight.png">   
-</td>
-</tr>
-</table>
-
+2. JSON body generator for element configuration.           
 
 ### Email Notification <a name="email"></a>    
 Using our notifications, users will be able to send a max of (N) emails to valid email ids for free during the trial period.
