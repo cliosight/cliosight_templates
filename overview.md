@@ -41,11 +41,11 @@ A form is the data input method for populating tables. It can have multiple sub-
 [Click here](https://github.com/cliosight/Docs/blob/main/form_json_format.css) to see all JSON tags that can be used for creating a form.
 
 ### Example of Forms - Meeting Scheduler Application <a name="form_example"></a>        
-For an application like a meeting scheduler portal, forms can be used to add contacts, groups and meeting requests. Data collected can be used to [automate](#automation) tasks like sending out meeting invite/update/cancellation emails.          
+For an application like a meeting scheduler portal, forms can be used to add contacts, groups and meeting requests. Data collected can be used to [automate](#automation) tasks like sending out meeting invite, update or cancellation emails.          
 
 [Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
 
-Note that the multiselect input options for adding 'Groups' to a 'Contact' or a 'Meeting' are disabled. This is because the reports listing the groups defined by respective SQL queries are <b>not "public"</b>. 
+Note that the multiselect input options for adding 'Groups' to a 'Contact' or a 'Meeting' are disabled. This is because the [reports](#report) listing the groups defined by respective SQL queries are <b>not "public"</b>. 
 
 **JSON specification for a section of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/Docs/blob/main/meeting_form_json.json) )          
 
