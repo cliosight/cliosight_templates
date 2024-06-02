@@ -187,7 +187,7 @@ This approach ensures that the primary table and associated sub-form tables rece
 ### Data Privacy and Security <a name="security"></a>       
 In order to provide assurance to users, Cliosight is designed to have in place all the possible tools to make datasets compliant with the applicable security regulations.    
 Some of the in-built features are:    
-1. Role-based Access Control (Admin, User and Admin-Minor)
+1. Role-based Access Control (Admin, User and Admin-Minor) for every UI component.
 2. Secure protocols for data and file transfer like HTTPS and SFTP only.
 3. Removal of personal and sensitive information from data with pre-defined queries.     
    
@@ -196,7 +196,7 @@ India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital
 
 
 ### Dashboard <a name="dashboard"></a>        
-A dashboard is an aggregation of forms, reports and HTML/CSS code snippets. Access can be controlled upto report filter level. This makes it the easiest way to develop and host an analytics dashboard, a SPA or a landing page.                                    
+A dashboard is an aggregation of forms, reports, charts and HTML. Access can be controlled upto report column. This makes it the easiest way to host a dashboard or a data application.                                    
 
 ### Examples of Dashboards <a name="dashboard_example"></a>   
 
@@ -378,6 +378,6 @@ json_data = {
 response = requests.post('https://app.cliosight.com/node/reports/create', headers=headers, json=json_data)
 ...        
 ```
-**Develop the best applications and datasets for machine learning with Cliosight. [Sign up](https://app.cliosight.com/app/dashboards/50/show/public?noNavbar=true) today.**
+
 
 
