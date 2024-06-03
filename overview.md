@@ -337,9 +337,9 @@ A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be 
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
 
 ### Using Cliosight Workflow <a name="python"></a>     
-Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high quality datasets. 
+Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. 
 
-Being able to create a workflow by combining repetitive tasks using a simple JSON configuration can speed up a project powered by data analytics and machine learning. Cliosight's components can be created instantly in external applications.    
+Cliosight's components can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON configuration can speed up a project that is powered by deep insights from high-quality data.     
 
 ### Fetching Data from a Report           
        
