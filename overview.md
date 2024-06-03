@@ -141,8 +141,8 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 }
 ```
 
-### Creating Graphs and Charts with JavaScript libraries and Reports <a name="graphs"></a>
-Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data through a report API or by using it in an iframe. The simplest way is to add it to a dashboard.      
+### Creating Graphs and Charts with JavaScript libraries <a name="graphs"></a>
+Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
      
 Chart with different datasources (coming soon)                
 [Live stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
@@ -187,6 +187,7 @@ This approach ensures that the primary table and associated sub-form tables rece
        
 ### Data Privacy and Security <a name="security"></a>       
 In order to provide assurance to users, Cliosight is designed to have in place all the possible tools to make datasets compliant with the applicable security regulations.    
+   
 Some of the in-built features are:    
 1. Discretionary and Role-based Access Control (Admin, User and Admin-Minor).
 2. Secure protocols for data and file transfer like HTTPS and SFTP.
@@ -198,7 +199,7 @@ India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital
 
 ### Dashboard <a name="dashboard"></a>        
 A dashboard is an aggregation of forms, reports, charts and HTML. This makes it the easiest way to create and host an analytics dashboard or a data application.                                    
-### Examples of Dashboards <a name="dashboard_example"></a>   
+### Example of a Dashboard <a name="dashboard_example"></a>   
 
 [Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true)                    
 
@@ -335,7 +336,7 @@ A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be 
 ### Example of a Workflow - Executing daily sales operational tasks <a name="workflowexamples"></a>        
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
 
-### Using Workflows in Jupyter Notebook for Machine Learning <a name="python"></a>     
+### Using Cliosight Workflow <a name="python"></a>     
 Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high quality datasets. 
 
 Being able to create a workflow by combining repetitive tasks using a simple JSON configuration can speed up a project powered by data analytics and machine learning. Cliosight's components can be created instantly in external applications.    
