@@ -35,12 +35,12 @@ Users will be able to send 100 emails to valid email ids during the trial period
 [Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)          
 
 ### Form <a name="form"></a>    
-A form is the data input method for populating tables. It can have nested sub-forms. It supports all basic elements of a conventional HTML5 form. With the 'pre-hmtl' and 'post-html' JSON tags, a form can function like a web page. A form is complete, except for the limitation that it can only have one submit button. Pre-defined values of input fields like a drop-down menu or a multi-select option may contain column values of a [report](#report). 
+A Form is the data input method for populating tables. It can have any number of nested sub-forms. It supports all basic elements of a conventional HTML5 form. With the 'pre-hmtl' and 'post-html' JSON tags, it can function like a web page. It is complete, except for the limitation that it can only have one submit button. Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values of input fields like a drop-down menu or a multi-select option may contain column values of a [Report](#report). 
 
 [Click here](https://github.com/cliosight/Docs/blob/main/form_json_format.css) to see all JSON tags that can be used for creating a form.
 
 ### Example of Forms - Meeting Scheduler Application <a name="form_example"></a>        
-For an application like a "company meeting scheduler", forms can be used to add contacts, groups and meeting requests. Data entered can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation.          
+For an application like a "company meeting scheduler", forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation.          
 
 [Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
 
@@ -60,9 +60,9 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 This platform provides specific functionalities for files uploaded through a form. The [free tier](#freetier) will allow a max of 4GB storage space for the in-built database and file storage. Like UI components, files are also equipped with access control.  
       
 ### Report <a name="report"></a>          
-While a Cliosight form is a unique data input interface, a report is the output of a SQL query. It supports multiple statements. Results of a report can be accessed via Cliosight's API or exported to other datasources with [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a report filter like a form input can show the column values of another report apart from hard-coded values.
+While a Cliosight Form is a unique data input interface, a Report is the output of a SQL query. It supports multiple statements. Results of a report can be accessed via Cliosight's API or exported to other datasources with [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a report filter like a form input can show the column values of another report apart from hard-coded values.
 
-### Example of a Report - Contacts and Groups Report  <a name="report_example"></a> 
+### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
 [Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
       
 **SQL query:**         
@@ -85,6 +85,7 @@ group by c.id limit {{startIndex}}, {{pageSize}};
     "is_public": {
         "status": true
     },
+    "pre_html": "",      
     "post_html": "",
     "css_definition": "",
     "columns": {
@@ -141,7 +142,7 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 }
 ```
 
-### Creating Graphs and Charts with JavaScript libraries <a name="graphs"></a>
+### Creating Graphs and Charts <a name="graphs"></a>
 Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
      
 Chart with different datasources (coming soon)                
@@ -172,7 +173,7 @@ Corresponding JSON:
 ```
 
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
-Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud VM or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
+Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
 
 Alternatively, reports from different datasources in one or more Cliosight accounts can be used for the same purpose. The results of subsequent operations can be pushed back to connected datasources as new reports or as additional records for existing reports. This makes creating, updating and sharing datasets more accessible in a collaborative work environment.   
 
@@ -328,7 +329,7 @@ A trigger enables action on data. Since we are dealing with structured data, it 
 A job executes SQL queries at intervals for performing an ETL operation.   
 
 ### Example of a Job - Managing free tier users of a SaaS platform <a name="job_example"></a>     
-Let's consider a simple application that notifies trial users of a SaaS product. As an admin, I need to send notifications everyday through email.     
+Let's consider a simple application that notifies trial users of a SaaS product. Marketing admins need to send notifications everyday through email.     
 
 ### Workflow <a name="workflow"></a>     
 A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured only for one datasource at a time, fetching data from others has to be carried out through utility jobs.       
