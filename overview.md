@@ -1,6 +1,6 @@
 # Introduction to Cliosight
 
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface, enabling the development of versatile data apps in just minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of platform-specific databases.
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. Our design enables the development of versatile data apps in just minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of platform-specific databases.
 
 ### Free Tier (Tentative) <a name="freetier"></a>   
     
@@ -26,7 +26,7 @@ To provide a better user experience through the use of AI, we will add code gene
 2. JSON body generator for element configuration.           
 
 ### Email Notification <a name="email"></a>    
-Using our notifications, users will be able to send a max of 100 emails to valid email ids for free during the trial period.
+Users will be able to send 100 emails to valid email ids during the trial period.
 
 <p align="center">
 <h2 align="left">Primary Components of a Cliosight Application</h2>
@@ -35,7 +35,7 @@ Using our notifications, users will be able to send a max of 100 emails to valid
 [Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)          
 
 ### Form <a name="form"></a>    
-A form is the data input method for populating tables. It can have multiple sub-forms. It supports all basic elements of a conventional HTML5 form. With the 'pre' and 'post' HTML JSON tags a form can function like a web page. A form is complete, except for the limitation that it can have only one submit button. Pre-defined values of input fields like a drop-down menu or a multi-select option may contain column values of a [report](#report). 
+A form is the data input method for populating tables. It can have nested sub-forms. It supports all basic elements of a conventional HTML5 form. With the 'pre-hmtl' and 'post-html' JSON tags, a form can function like a web page. A form is complete, except for the limitation that it can only have one submit button. Pre-defined values of input fields like a drop-down menu or a multi-select option may contain column values of a [report](#report). 
 
 [Click here](https://github.com/cliosight/Docs/blob/main/form_json_format.css) to see all JSON tags that can be used for creating a form.
 
@@ -48,8 +48,9 @@ Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is b
 
 **JSON specification of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/Docs/blob/main/meeting_form_json.json) )          
 
-This example shows how a Cliosight form can accomodate complex relations of a database.    
-1. Multiselect input options from a report column       
+This example shows how a Cliosight form can accomodate complex scenarios of an application.    
+    
+1. Multiselect input options from a report       
 2. Drop down menu with hardcoded values     
 3. Rules based on the values selected from the drop down    
 4. 'Meeting Purpose' sub-form within the form     
@@ -59,7 +60,7 @@ This example shows how a Cliosight form can accomodate complex relations of a da
 This platform provides specific functionalities for files uploaded through a form. The [free tier](#freetier) will allow a max of 4GB storage space for the in-built database and file storage. Like UI components, files are also equipped with access control.  
       
 ### Report <a name="report"></a>          
-While a form is the data input interface, a report is the output of data analysis with SQL. Results of a report can be accessed via Cliosight's API or exported to other datasources with [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter like a form input can show the column values of a report apart from hard-coded values.
+While a Cliosight form is a unique data input interface, a report is the output of a SQL query. It supports multiple statements. Results of a report can be accessed via Cliosight's API or exported to other datasources with [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a report filter like a form input can show the column values of another report apart from hard-coded values.
 
 ### Example of a Report - Contacts and Groups Report  <a name="report_example"></a> 
 [Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
@@ -141,7 +142,7 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 ```
 
 ### Creating Graphs and Charts with JavaScript libraries and Reports <a name="graphs"></a>
-Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js, and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data through a report API or by using it in an iframe. The simplest way is to add it to a dashboard.      
+Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data through a report API or by using it in an iframe. The simplest way is to add it to a dashboard.      
      
 Chart with different datasources (coming soon)                
 [Live stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
@@ -171,18 +172,18 @@ Corresponding JSON:
 ```
 
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
-Public datasets are typically downloaded as CSV files on the hard disk of personal computers, cloud VM or storage attached to a serverless application. Data is processed, split or merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Custom datasets, on the other hand, can be accessed using TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
+Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud VM or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
 
-Alternatively, reports from different datasources in one or more Cliosight accounts can be used for the same purpose. The results of subsequent operations can be pushed back to connected datasources as new reports or as additional records for existing reports. This makes creating, updating and sharing private datasets more secure in a collaborative work environment.   
+Alternatively, reports from different datasources in one or more Cliosight accounts can be used for the same purpose. The results of subsequent operations can be pushed back to connected datasources as new reports or as additional records for existing reports. This makes creating, updating and sharing datasets more accessible in a collaborative work environment.   
 
 ### Ensuring Trustworthiness <a name="trust"></a>           
 Users can restrict data input into a table using the following methods:  
 1. Disabling CSV data import.     
 2. Disabling manual insert, update or delete query execution on the associated tables.
-3. Ensuring that no other forms or endpoints can insert data into the tables.
+3. Ensuring that no other forms or endpoints can insert data into those restricted tables.
 4. Disabling data export.       
 
-This approach ensures that the primary table and associated sub-form tables receive their inputs through the designated form interface or endpoint only. This real-world data can be used for generating better artificial datasets.
+This approach ensures that the primary table and associated sub-form tables receive their inputs through the designated form or endpoint only. This real-world data can be used for generating better artificial datasets in a machine learning application.
        
 ### Data Privacy and Security <a name="security"></a>       
 In order to provide assurance to users, Cliosight is designed to have in place all the possible tools to make datasets compliant with the applicable security regulations.    
@@ -299,13 +300,13 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 ```
 
 ### Automation <a name="automation"></a>   
-Simple UI like forms and dashboards are useful. However, for developing a full-fledged cloud-hosted CRM application, automating tasks is necessary. Our syntax provides a shorthand for one-click deployment of automation code. Provision for custom Javascript/Python code will be available soon.     
+Simple UI like forms, reports and dashboards are useful for any professional. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click deployment of automation code. Provision for user-defined Javascript and Python code will be available later.     
 
 ### Sending Email Notification on Event <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
 
 ### Trigger <a name="trigger"></a>   
-A trigger enables action on data and insights. Since we are dealing with structured data, it means executing the basic operations on table rows based on events.  
+A trigger enables action on data. Since we are dealing with structured data, it means executing basic operations on table rows based on events.  
     
 ### Example of a Trigger - Managing an SCD (Slowly Changing Dimension) <a name="scd"></a>    
 **Existing Contact update action**  
@@ -329,7 +330,7 @@ A job executes SQL queries at intervals for performing an ETL operation.
 Let's consider a simple application that notifies trial users of a SaaS product. As an admin, I need to send notifications everyday through email.     
 
 ### Workflow <a name="workflow"></a>     
-A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured only for one datasource at a time, fetching data from others has to be carried out through other utility jobs or workflows.       
+A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured only for one datasource at a time, fetching data from others has to be carried out through utility jobs.       
 
 ### Example of a Workflow - Executing daily sales operational tasks <a name="workflowexamples"></a>        
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
@@ -337,7 +338,7 @@ Consider the sales funnel that comprises sending out personalized emails to exis
 ### Using Workflows in Jupyter Notebook for Machine Learning <a name="python"></a>     
 Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high quality datasets. 
 
-Being able to create a workflow by combining data analytics tasks using a simple JSON configuration can speed up the design and development of a project powered by machine learning. Cliosight's components can be created instantly in external applications.    
+Being able to create a workflow by combining repetitive tasks using a simple JSON configuration can speed up a project powered by data analytics and machine learning. Cliosight's components can be created instantly in external applications.    
 
 ### Fetching Data from a Report           
        
