@@ -154,7 +154,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 Simple UI like forms, reports and dashboards are useful. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click addition of automation tasks. Provision for adding user-defined Javascript and Python code will be available later.   
 
 ### Trigger <a name="trigger"></a>   
-A trigger enables action on data. Since we are dealing with structured data, it means executing basic operations on table rows on events.   
+A trigger enables action on data. Since we are dealing with structured data, it implies executing operations on report data.   
 
 ### Sending Email Notifications <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
