@@ -1,0 +1,94 @@
+{
+    "is_public": {
+        "status": true
+    },
+    "css_definition": "",
+    "pre_html": "<h1>Cliosight Meetings</h1>",
+    "hideToolbar": false,
+    "post_html": "<h6>Copyright Cliosight 2024. All rights reserved</h6>",
+    "widget_groups": [{
+        "widgets": [{
+                "id": "85",
+                "cols": 12,
+                "removeReportCss": false
+            }, {
+                "html": "<h4 style=\"\">Charts and Graphs</h4><br/>",
+                "cols": 12,
+                "type": "html"
+            },
+            {
+                "html": "<h2></h2>",
+                "cols": 2,
+                "type": "html"
+            },
+            {
+                "html": " <iframe src=\"\" style=\"\" title=\"\"></iframe> ",
+                "cols": 8,
+                "type": "html"
+            },
+            {
+                "html": "<br/><br/><h4 style=\"\">Group, Contact and Meeting Forms</h4>",
+                "cols": 12,
+                "type": "html"
+            },
+            {
+                "type": "form",
+                "id": "34",
+                "cols": 12,
+                "removeFormCss": false
+            },
+            {
+                "type": "form",
+                "id": "35",
+                "cols": 12,
+                "removeFormCss": false
+            },
+            {
+                "type": "form",
+                "id": "58",
+                "cols": 12,
+                "removeFormCss": false
+            },
+            {
+                "id": "88",
+                "cols": 12,
+                "removeReportCss": false
+            }, {
+            "html": "<br/><h4 style=\"\">Reports with Global Filters</h4><br/>",
+            "cols": 12,
+            "type": "html"
+        }
+        ]
+    }, {
+        "widgets": [{
+            "id": "68",
+            "cols": 6,
+            "removeReportCss": false
+        }, {
+            "id": "37",
+            "cols": 6,
+            "removeReportCss": false
+        }],
+        "filter_menu": [{
+            "label": "Group",
+            "column": "id",
+            "column_label": "Name",
+            "report_id": 28,
+            "name": "group_id",
+            "reports": {
+                "37": {
+                    "report_column": "group_id",
+                    "name": "group_id",
+                    "label": "Group",
+                    "label_column": "Name"
+                },
+                "68": {
+                    "report_column": "group_id",
+                    "name": "group_id",
+                    "label": "Group",
+                    "label_column": "Name"
+                }
+            }
+        }]
+    }]
+}
