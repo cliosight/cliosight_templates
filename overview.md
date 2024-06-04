@@ -54,7 +54,7 @@ A form in Cliosight is the standard method for populating tables. Data from a CS
       
 Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin. Forms can be grouped together in a [Dashboard](#dashboard).                
 
-[Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to see all JSON tags that can be used within a form definition.
+[Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to view all JSON tags that can be used within a form definition.
 
 ### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
 For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
