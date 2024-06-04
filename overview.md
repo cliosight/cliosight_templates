@@ -2,7 +2,7 @@
 
 Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of versatile data apps in a matter of minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.
 
-### Free Tier (Tentative) <a name="freetier"></a>   
+## Free Tier (Tentative) <a name="freetier"></a>   
     
 |Category     |Free for 14 days|
 |:----------------------|:-------------|
@@ -15,12 +15,12 @@ Cliosight is a low-code platform that allows users to quickly add SQL databases 
 |Customization           |None |
 |Support    |Limited   |
 
-### Support for Multiple Datasources <a name="datasources"></a>             
+## Support for Multiple Datasources <a name="datasources"></a>             
                   
 **SQL** - MySQL, Microsoft SQL Server (and Postgres).          
 **Data Warehouse** - (Google Big Query)    
 
-### Data Privacy and Security <a name="security"></a>       
+## Data Privacy and Security <a name="security"></a>       
 In order to provide complete assurance, Cliosight is designed to make datasets compliant with the applicable security regulations.       
    
 Some of the in-built features are:    
@@ -31,15 +31,15 @@ Some of the in-built features are:
 EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/)      
 India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
 
-### Admin console <a name="datasources"></a> 
+## Admin console <a name="datasources"></a> 
 Admin users have direct access to all cloud datasources, database tables, users and groups in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in JSON.                    
    
-### Leveraging AI <a name="ai"></a>
+## Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.           
 
-### Email Notification <a name="email"></a>    
+## Email Notification <a name="email"></a>    
 Users will be able to send 100 emails to valid email ids during the initial 14 days trial period.
 
 <p align="center">
@@ -48,7 +48,8 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 
 [Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)          
 
-### Form <a name="form"></a>    
+## Form <a name="form"></a>    
+----------------------
 A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can function like a web page. A form is complete, except for the limitation that it can only have one submit button.    
       
 Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin.         
@@ -75,7 +76,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 ### File Storage <a name="afiles"></a>      
 This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Like UI components, files are also equipped with access control.     
       
-### Report <a name="report"></a>          
+## Report <a name="report"></a>          
 While a Cliosight form is a unique data entry interface, a report is the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
@@ -123,7 +124,7 @@ JSON:
     "columns": {}
 }
 ```
-### Exporting Report data into PDF <a name="pdf"></a>
+### Exporting Report data into PDF file <a name="pdf"></a>
 With the 'export_html' JSON tag, row data in a report can be exported into a PDF file with a single click. This operation can be automated with triggers and jobs to serve several business use cases.
      
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
@@ -140,7 +141,7 @@ Users can restrict data input into a table using the following methods:
 
 This approach ensures that the primary table and associated sub-form tables receive their inputs through the designated form or endpoint only. This real-world data can be used for generating better artificial datasets in a machine learning application.
        
-### Dashboard <a name="dashboard"></a>        
+## Dashboard <a name="dashboard"></a>        
 A dashboard is an aggregation of forms, reports, charts and HTML. This makes it the easiest way to create and host an analytics dashboard or a single page data application.        
     
 ### Example of a Dashboard <a name="dashboard_example"></a>   
@@ -149,14 +150,14 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 
 [Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
-### Automation <a name="automation"></a>   
+## Automation <a name="automation"></a>   
 Simple UI like forms, reports and dashboards are useful. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click addition of automation tasks. Provision for adding user-defined Javascript and Python code will be available later.   
-    
-### Sending Email Notifications <a name="trigger_email"></a>        
-Sending notifications on events can be configured like any other backend component.   
 
 ### Trigger <a name="trigger"></a>   
 A trigger enables action on data. Since we are dealing with structured data, it means executing basic operations on table rows on events.   
+
+### Sending Email Notifications <a name="trigger_email"></a>        
+Sending notifications on events can be configured like any other backend component.   
     
 ### Example of a Trigger - Managing an SCD (Slowly Changing Dimension) <a name="scd"></a>    
 **Existing Contact update action**  
