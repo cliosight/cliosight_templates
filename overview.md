@@ -1,6 +1,6 @@
 # Introduction to Cliosight
 
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of versatile data apps in just minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of versatile data apps in a matter of minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.
 
 ### Free Tier (Tentative) <a name="freetier"></a>   
     
@@ -21,7 +21,7 @@ Cliosight is a low-code platform that allows users to quickly add SQL databases 
 **Data Warehouse** - (Google Big Query)    
 
 ### Data Privacy and Security <a name="security"></a>       
-In order to provide assurance, Cliosight is designed to make datasets compliant with the applicable security regulations.       
+In order to provide complete assurance, Cliosight is designed to make datasets compliant with the applicable security regulations.       
    
 Some of the in-built features are:    
 1. Discretionary and Role-based Access Control (admin, user and admin-minor).
@@ -32,7 +32,7 @@ EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-g
 India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
 
 ### Admin console <a name="datasources"></a> 
-Admin users have direct access to all cloud datasources, database tables, users and groups. They can run queries directly on the configured databases through our admin console. Results are displayed in JSON.                    
+Admin users have direct access to all cloud datasources, database tables, users and groups in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in JSON.                    
    
 ### Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
@@ -51,12 +51,12 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 ### Form <a name="form"></a>    
 A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can function like a web page. A form is complete, except for the limitation that it can only have one submit button.    
       
-Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values in input fields like a drop-down menu or a multi-select option may contain column values of a [Report](#report). By using a report which is not made public, access to a field can also be restricted by an admin.         
+Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin.         
 
 [Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to see all JSON tags that can be used within a form definition.
 
-### Example of Forms - Meeting Scheduler Application <a name="form_example"></a>        
-For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation.          
+### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
+For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
 
 [Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
 
@@ -76,7 +76,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Like UI components, files are also equipped with access control.     
       
 ### Report <a name="report"></a>          
-While a Cliosight form is a unique data input interface, a report here is the output of a SQL query. It supports multiple statements. Results of a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter like any form input can show the column values of another report apart from hard-coded values.   
+While a Cliosight form is a unique data entry interface, a report is the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
 [Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
@@ -95,7 +95,7 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 [Click here](contacts_and_groups_report.json) to view the JSON definition for this report.    
 
 ### Creating Graphs and Charts <a name="graphs"></a>
-Tabular data from reports can be used to plot graphs and charts using some standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends from datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
+Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
      
 Chart with different datasources                    
 [Live stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
@@ -123,7 +123,9 @@ JSON:
     "columns": {}
 }
 ```
-
+### Exporting Report data into PDF <a name="pdf"></a>
+With the 'export_html' JSON tag, row data in a report can be exported into a PDF file with a single click. This operation can be automated with triggers and jobs to serve several business use cases.
+     
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
 Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
 
