@@ -63,7 +63,7 @@ For an application like a "company meeting scheduler" portal, forms can be used 
 
 Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
-**JSON specification of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/introduction/blob/main/meeting_form.json) )        
+**Creating the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/introduction/blob/main/meeting_form.json) )        
 
 This example shows how a Cliosight form can accomodate complex scenarios of an application.    
     
