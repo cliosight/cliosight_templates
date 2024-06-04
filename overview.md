@@ -1,6 +1,6 @@
 # Introduction to Cliosight
 
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. Our design enables the development of versatile data apps in just minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of platform-specific databases.
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of versatile data apps in just minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.
 
 ### Free Tier (Tentative) <a name="freetier"></a>   
     
@@ -20,13 +20,27 @@ Cliosight is a low-code platform that allows users to quickly add SQL databases 
 **SQL** - MySQL, Microsoft SQL Server (and Postgres).          
 **Data Warehouse** - (Google Big Query)    
 
+### Data Privacy and Security <a name="security"></a>       
+In order to provide assurance to users, Cliosight is designed to make datasets compliant with the applicable security regulations.       
+   
+Some of the in-built features are:    
+1. Discretionary and Role-based Access Control (admin, user and admin-minor).
+2. Secure protocols for data and file transfer like HTTPS and SFTP.
+3. Removal of sensitive information from data with pre-defined SQL queries.     
+   
+EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/)      
+India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
+
+### Admin console <a name="datasources"></a> 
+Admin users have direct access to all datasources, tables, users and groups. They can run queries directly on the configured databases through our admin console. Results are displayed in JSON.                    
+   
 ### Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within the platform.  
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.           
 
 ### Email Notification <a name="email"></a>    
-Users will be able to send 100 emails to valid email ids during the trial period.
+Users will be able to send 100 emails to valid email ids during the 14 days trial period.
 
 <p align="center">
 <h2 align="left">Primary Components of a Cliosight Application</h2>
@@ -35,32 +49,34 @@ Users will be able to send 100 emails to valid email ids during the trial period
 [Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)          
 
 ### Form <a name="form"></a>    
-A Form is the data input method for populating tables. It can have any number of nested sub-forms. It supports all basic elements of a conventional HTML5 form. With the 'pre-hmtl' and 'post-html' JSON tags, it can function like a web page. It is complete, except for the limitation that it can only have one submit button. Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values of input fields like a drop-down menu or a multi-select option may contain column values of a [Report](#report). 
+A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can function like a web page. A form is complete, except for the limitation that it can only have one submit button.    
+      
+Forms can be grouped together in a [Dashboard](#dashboard). Pre-defined values in input fields like a drop-down menu or a multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin.         
 
-[Click here](https://github.com/cliosight/Docs/blob/main/form_json_format.css) to see all JSON tags that can be used for creating a form.
+[Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to see all JSON tags that can be used within a form definition.
 
 ### Example of Forms - Meeting Scheduler Application <a name="form_example"></a>        
 For an application like a "company meeting scheduler", forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation.          
 
 [Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
 
-Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are <b>not "public"</b>. 
+Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
-**JSON specification of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/Docs/blob/main/meeting_form_json.json) )          
+**JSON specification of the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/introduction/blob/main/meeting_form.json) )        
 
 This example shows how a Cliosight form can accomodate complex scenarios of an application.    
     
-1. Multiselect input options from a report       
+1. Multiselect input options from a report column          
 2. Drop down menu with hardcoded values     
 3. Rules based on the values selected from the drop down    
-4. 'Meeting Purpose' sub-form within the form     
+4. 'Meeting Purpose' sub-form          
 5. Multiple instances of aggregated values within the sub-form      
 
 ### File Storage <a name="afiles"></a>      
-This platform provides specific functionalities for files uploaded through a form. The [free tier](#freetier) will allow a max of 4GB storage space for the in-built database and file storage. Like UI components, files are also equipped with access control.  
+This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Like UI components, files are also equipped with access control.     
       
 ### Report <a name="report"></a>          
-While a Cliosight Form is a unique data input interface, a Report is the output of a SQL query. It supports multiple statements. Results of a report can be accessed via Cliosight's API or exported to other datasources with [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a report filter like a form input can show the column values of another report apart from hard-coded values.
+While a form is a unique data input interface, a report is the output of a SQL query. It supports multiple statements. Results of a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter like a form input can show the column values of another report apart from hard-coded values.   
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
 [Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
@@ -76,71 +92,7 @@ and (c.name = {{Name}} or {{Name}} is null)  \
 and (c.phone = {{Phone}} or {{Phone}} is null)  \
 group by c.id limit {{startIndex}}, {{pageSize}};
 ```
-
-**JSON:**            
-```json
-{
-    "datasource_id": "1",
-    "multipleStatements": true,
-    "is_public": {
-        "status": true
-    },
-    "pre_html": "",      
-    "post_html": "",
-    "css_definition": "",
-    "columns": {
-        "group_id": {
-            "hidden": true
-        },
-        "contact_id": {
-            "hidden": true
-        },
-        "Name": {
-            "links": [{
-                "type": "form",
-                "id": "35",
-                "args": [{
-                    "report_column": "contact_id",
-                    "name": "id"
-                }, {
-                    "report_column": "Email",
-                    "name": "email"
-                }],
-                "label": "Edit Contact"
-            }]
-        },
-        "Total Groups": {
-            "text-align": "right",
-            "dropdown-menu-align": "right",
-            "links": [{
-                "type": "report",
-                "id": "31",
-                "args": [{
-                    "report_column": "contact_id",
-                    "name": "contact_id"
-                }],
-                "label": "View Groups"
-            }]
-        }
-    },
-    "filter_menu": [{
-        "column": "Name"
-    }, {
-        "column": "Email",
-        "report_id": 49,
-        "name": "email"
-    }, {
-        "column": "Phone"
-    }, {
-        "column": "Total Groups"
-    }],
-    "report_links": [{
-        "type": "form",
-        "id": "35",
-        "label": "Add a Contact"
-    }]
-}
-```
+[Click here](contacts_and_groups_report.json) to view the JSON definition for this report.    
 
 ### Creating Graphs and Charts <a name="graphs"></a>
 Tabular data from reports can be used to plot graphs and charts using the standard Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts trends form datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
@@ -158,7 +110,7 @@ select concat(count(*), ' Groups Organized') from `groups` as count
 union all    
 select concat(count(*), ' Interviews Recorded') from `interviews` as count    
 ```
-Corresponding JSON:    
+JSON:    
 ```json
 {
     "datasource_id": "1",
@@ -186,120 +138,13 @@ Users can restrict data input into a table using the following methods:
 
 This approach ensures that the primary table and associated sub-form tables receive their inputs through the designated form or endpoint only. This real-world data can be used for generating better artificial datasets in a machine learning application.
        
-### Data Privacy and Security <a name="security"></a>       
-In order to provide assurance to users, Cliosight is designed to have in place all the possible tools to make datasets compliant with the applicable security regulations.    
-   
-Some of the in-built features are:    
-1. Discretionary and Role-based Access Control (Admin, User and Admin-Minor).
-2. Secure protocols for data and file transfer like HTTPS and SFTP.
-3. Removal of sensitive information from data with pre-defined SQL queries.     
-   
-EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/)      
-India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
-
-
 ### Dashboard <a name="dashboard"></a>        
 A dashboard is an aggregation of forms, reports, charts and HTML. This makes it the easiest way to create and host an analytics dashboard or a data application.                                    
 ### Example of a Dashboard <a name="dashboard_example"></a>   
 
 [Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true)                    
 
-```json
-{
-    "is_public": {
-        "status": true
-    },
-    "css_definition": "",
-    "pre_html": "<h1>Cliosight Meetings</h1>",
-    "hideToolbar": false,
-    "post_html": "<h6>Copyright Cliosight 2024. All rights reserved</h6>",
-    "widget_groups": [{
-        "widgets": [{
-                "id": "85",
-                "cols": 12,
-                "removeReportCss": false
-            }, {
-                "html": "<h4 style=\"\">Charts and Graphs</h4><br/>",
-                "cols": 12,
-                "type": "html"
-            },
-            {
-                "html": "<h2></h2>",
-                "cols": 2,
-                "type": "html"
-            },
-            {
-                "html": " <iframe src=\"\" style=\"\" title=\"\"></iframe> ",
-                "cols": 8,
-                "type": "html"
-            },
-            {
-                "html": "<br/><br/><h4 style=\"\">Group, Contact and Meeting Forms</h4>",
-                "cols": 12,
-                "type": "html"
-            },
-            {
-                "type": "form",
-                "id": "34",
-                "cols": 12,
-                "removeFormCss": false
-            },
-            {
-                "type": "form",
-                "id": "35",
-                "cols": 12,
-                "removeFormCss": false
-            },
-            {
-                "type": "form",
-                "id": "58",
-                "cols": 12,
-                "removeFormCss": false
-            },
-            {
-                "id": "88",
-                "cols": 12,
-                "removeReportCss": false
-            }, {
-            "html": "<br/><h4 style=\"\">Reports with Global Filters</h4><br/>",
-            "cols": 12,
-            "type": "html"
-        }
-        ]
-    }, {
-        "widgets": [{
-            "id": "68",
-            "cols": 6,
-            "removeReportCss": false
-        }, {
-            "id": "37",
-            "cols": 6,
-            "removeReportCss": false
-        }],
-        "filter_menu": [{
-            "label": "Group",
-            "column": "id",
-            "column_label": "Name",
-            "report_id": 28,
-            "name": "group_id",
-            "reports": {
-                "37": {
-                    "report_column": "group_id",
-                    "name": "group_id",
-                    "label": "Group",
-                    "label_column": "Name"
-                },
-                "68": {
-                    "report_column": "group_id",
-                    "name": "group_id",
-                    "label": "Group",
-                    "label_column": "Name"
-                }
-            }
-        }]
-    }]
-}
-```
+[Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
 ### Automation <a name="automation"></a>   
 Simple UI like forms, reports and dashboards are useful for any professional. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click deployment of automation code. Provision for user-defined Javascript and Python code will be available later.     
@@ -340,7 +185,7 @@ Consider the sales funnel that comprises sending out personalized emails to exis
 ### Using Cliosight Workflow <a name="python"></a>     
 Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. 
 
-Cliosight's components can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON configuration can speed up a project that is powered by deep insights from high-quality data.     
+Cliosight's components can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is powered by deep insights from high-quality data.     
 
 ### Fetching Data from a Report           
        
