@@ -96,10 +96,10 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 [Click here](contacts_and_groups_report.json) to view the JSON definition for this report.    
 
 ### Creating Graphs and Charts <a name="graphs"></a>
-Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display live stats by fetching data from a report.      
+Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display stats by fetching data from a report.      
      
 Chart with different datasources                    
-[Live stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
+[Important stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
 
 SQL query for the report:     
 ```sql
@@ -146,7 +146,14 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
     
 ### Example of a Dashboard <a name="dashboard_example"></a>   
 
-[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true)                    
+[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true) has the following UI components.                
+
+1. A report displaying some important numbers          
+2. Forms to create contacts, groups and meetings requests
+3. A report for listing all meeting documents      
+4. Two reports with a global filter       
+5. HTML in between UI components      
+6. (Charts)           
 
 [Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
