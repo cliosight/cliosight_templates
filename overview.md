@@ -181,15 +181,14 @@ A job executes SQL queries at intervals for performing an ETL operation.
 Let's consider a simple application that notifies trial users of a SaaS product. Marketing admins need to send notifications everyday through email.     
 
 ### Workflow <a name="workflow"></a>     
+Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. Every component in Cliosight can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is powered by deep insights from high-quality data.      
+
 A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured only for one datasource at a time, fetching data from others has to be carried out through utility jobs.       
 
 ### Example of a Workflow - Executing daily sales operational tasks <a name="workflowexamples"></a>        
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
 
-### Using Cliosight Workflow <a name="python"></a>     
-Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. 
-
-Cliosight's components can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is powered by deep insights from high-quality data.     
+## Examples of Cliosight API <a name="python"></a>     
 
 ### Fetching Data from a Report           
        
