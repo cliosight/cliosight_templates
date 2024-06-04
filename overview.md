@@ -148,7 +148,8 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 [Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
 ### Automation <a name="automation"></a>   
-Simple UI like forms, reports and dashboards are useful. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click deployment of automation code. Provision for adding user-defined Javascript and Python code will be available later.     
+Simple UI like forms, reports and dashboards are useful. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click addition of automation tasks. Provision for adding user-defined Javascript and Python code will be available later.   
+    
 ### Sending Email Notifications <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
 
