@@ -240,5 +240,13 @@ To provide a better user experience through the use of AI, we will add code gene
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.
 
-As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications.                    
+<p align="center">
+  <img alt="Light" src="images/rapid_app_development.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="images/cliosight_ai.png" width="45%">
+</p>
+
+
+As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our [blog](https://medium.com/@cliosight).     
+
 
