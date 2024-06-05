@@ -41,7 +41,7 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 <h2 align="left">Primary Components of a Cliosight Application</h2>
 </p>
 
-<b><h3>[Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)</h3></b>                 
+<b><h4>[Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)</h4></b>                 
 
 <p align="left">
   <img alt="" src="images/cliosight_app.png" width="100%">
