@@ -53,12 +53,12 @@ A form in Cliosight is the standard method for populating tables. Data from a CS
       
 Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin user. Two or more forms can be grouped together in a [Dashboard](#dashboard).                
 
-[Click here](form_json_format.css){:target="_blank"} to view all JSON tags that can be used within a form definition.
+[Click here](form_json_format.css){:target="_blank" rel="noopener"} to view all JSON tags that can be used within a form definition.
 
 ### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
 For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
 
-<b>[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true){:target="_blank"},   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true){:target="_blank"},   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true){:target="_blank"}</b>     
+<b>[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true){:target="_blank" rel="noopener"},   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true){:target="_blank"},   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true){:target="_blank"}</b>     
 
 Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
