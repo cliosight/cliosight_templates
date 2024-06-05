@@ -69,7 +69,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 5. Multiple instances of aggregated values within the sub-form      
 
 ### File Storage <a name="afiles"></a>      
-This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Like UI components, files are also equipped with access control.     
+This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Files are also equipped with access control.     
       
 ## Report <a name="report"></a>          
 While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
