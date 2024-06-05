@@ -58,7 +58,7 @@ Pre-defined values in input fields like a drop-down menu or multi-select option 
 ### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
 For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
 
-[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)     
+<b>[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)</b>     
 
 Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
@@ -79,7 +79,7 @@ This platform provides specific functionalities for files uploaded through a for
 While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
-[Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
+<b>[Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)</b> is the list of all contacts with associated groups.      
       
 **SQL query:**         
 ``` sql
@@ -145,7 +145,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
     
 ### Example of a Dashboard <a name="dashboard_example"></a>   
 
-[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true) has the following UI components.                
+<b>[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true)</b> has the following UI components.                
 
 1. A report displaying some important numbers          
 2. Forms to create contacts, groups and meetings requests
