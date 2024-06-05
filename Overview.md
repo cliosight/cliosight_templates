@@ -43,9 +43,9 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 
 <b><h3>[Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)</h3></b>                 
 
-Layers of a Cliosight application        
-:-------------------------:
-![](images/cliosight_app.png)  
+<p align="center">
+  <img alt="" src="images/cliosight_app.png" width="100%">
+</p>
 
 ## Form <a name="form"></a>    
 
