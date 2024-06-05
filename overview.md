@@ -49,7 +49,7 @@ A form in Cliosight is the standard method for populating tables. Data from a CS
       
 Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin user. Two or more forms can be grouped together in a [Dashboard](#dashboard).                
 
-[Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to view all JSON tags that can be used within a form definition.
+[Click here](form_json_format.css) to view all JSON tags that can be used within a form definition.
 
 ### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
 For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
@@ -58,7 +58,7 @@ For an application like a "company meeting scheduler" portal, forms can be used 
 
 Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
-**Creating the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](https://github.com/cliosight/introduction/blob/main/meeting_form.json) )        
+**Creating the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](json_examples/meeting_form.json) )        
 
 This example shows how a Cliosight form can accomodate complex scenarios of an application.    
     
@@ -88,7 +88,7 @@ and (c.name = {{Name}} or {{Name}} is null)  \
 and (c.phone = {{Phone}} or {{Phone}} is null)  \
 group by c.id limit {{startIndex}}, {{pageSize}};
 ```
-[Click here](contacts_and_groups_report.json) to view the JSON definition for this report.    
+[Click here](json_examples/contacts_and_groups_report.json) to view the JSON definition for this report.    
 
 ### Creating Graphs and Charts <a name="graphs"></a>
 Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display stats by fetching data from tables.      
@@ -150,7 +150,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 5. HTML in between UI components      
 6. (Charts)           
 
-[Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
+[Click here](json_examples/cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
 ## Automation <a name="automation"></a>   
 Forms, reports and dashboards are useful for data visualization. However, for developing a full-fledged cloud-hosted application, automation is necessary. Our syntax provides a shorthand for one-click addition of automated tasks. Provision for adding user-defined Javascript and Python code will be available later.     
