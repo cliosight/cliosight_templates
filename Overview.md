@@ -240,18 +240,11 @@ To provide a better user experience through the use of AI, we will add code gene
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.   
 
-Rapid application development         |  Low-code with Cliosight and AI
-:------------------------------------:|:------------------------------------:
+Current rapid application development |  Low-code development with Cliosight
+:------------------------------------:|:--------------------------------------:
 ![](images/rapid_app_development.png) |  ![](images/cliosight_ai.png)
 
-<p align="center">
-  
-  <img alt="Light" src="images/rapid_app_development.png" width="50%" >
 
-  <img alt="Dark" src="images/cliosight_ai.png" width="50%" >
-</p>
-
-
-As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our [blog](https://medium.com/@cliosight).     
+As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our <b>[blog](https://medium.com/@cliosight)</b>.     
 
 
