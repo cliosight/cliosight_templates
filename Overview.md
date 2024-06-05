@@ -238,13 +238,13 @@ response = requests.post('https://app.cliosight.com/node/reports/create', header
 ## Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
 1. SQL query generator for creating reports,     
-2. JSON body generator for element configuration.
+2. JSON body generator for element configuration.   
 
 <p align="center">
   
-  <img alt="Light" src="images/rapid_app_development.png" width="45%" style="border:1px solid grey">
+  <img alt="Light" src="images/rapid_app_development.png" width="45%" >
 
-  <img alt="Dark" src="images/cliosight_ai.png" width="45%" style="border:1px solid grey">
+  <img alt="Dark" src="images/cliosight_ai.png" width="40%" >
 </p>
 
 
