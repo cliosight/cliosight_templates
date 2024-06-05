@@ -32,12 +32,7 @@ EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-g
 India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
 
 ## Admin console <a name="datasources"></a> 
-Admin users have direct access to all cloud datasources, database tables, users and groups in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in JSON.                    
-   
-## Leveraging AI <a name="ai"></a>
-To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
-1. SQL query generator for creating reports,     
-2. JSON body generator for element configuration.           
+Admin users have direct access to all datasource configurations, database tables, users and groups created in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in the JSON format.                              
 
 ## Email Notification <a name="email"></a>    
 Users will be able to send 100 emails to valid email ids during the initial 14 days trial period.
@@ -50,9 +45,9 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 
 ## Form <a name="form"></a>    
 
-A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can function like a web page. A form is complete, except for the limitation that it can only have one submit button.    
+A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can appear like a static web page. A form is complete, except for the limitation that it can only have one submit button.    
       
-Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin. Forms can be grouped together in a [Dashboard](#dashboard).                
+Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin user. Two or more forms can be grouped together in a [Dashboard](#dashboard).                
 
 [Click here](https://github.com/cliosight/introduction/blob/main/form_json_format.css) to view all JSON tags that can be used within a form definition.
 
@@ -77,7 +72,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Like UI components, files are also equipped with access control.     
       
 ## Report <a name="report"></a>          
-While a Cliosight form is a unique data entry interface, a report is the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
+While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
 [Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)      
@@ -125,7 +120,7 @@ JSON:
 }
 ```
 ### Exporting Report data into PDF file <a name="pdf"></a>
-With the 'export_html' JSON tag, row data in a report can be exported into a PDF file with a single click. This operation can be automated with triggers and jobs to serve several business use cases.
+With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve many business use cases. For instance, sending an invoice, medical test report or a certificate through email.         
      
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
 Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
@@ -236,5 +231,8 @@ response = requests.post('https://app.cliosight.com/node/reports/create', header
 ...        
 ```
 
-
+## Leveraging AI <a name="ai"></a>
+To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
+1. SQL query generator for creating reports,     
+2. JSON body generator for element configuration. 
 
