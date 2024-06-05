@@ -37,13 +37,13 @@ Admin users have direct access to all datasource configurations, database tables
 ## Email Notification <a name="email"></a>    
 Users will be able to send 100 emails to valid email ids during the initial 14 days trial period.
 
-<p align="center">
+<p align="left">
 <h2 align="left">Primary Components of a Cliosight Application</h2>
 </p>
 
 <b><h3>[Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)</h3></b>                 
 
-<p align="center">
+<p align="left">
   <img alt="" src="images/cliosight_app.png" width="100%">
 </p>
 
