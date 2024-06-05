@@ -26,10 +26,10 @@ In order to provide complete assurance, Cliosight is designed to make datasets c
 Some of the in-built features are:    
 1. Discretionary and Role-based Access Control (admin, user and admin-minor).
 2. Secure protocols for data and file transfer like HTTPS and SFTP.
-3. Removal of sensitive information from data with pre-defined SQL queries.     
+3. (Removal of sensitive information from data with pre-defined SQL queries.)     
    
 EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/)               
-India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) &nbsp;&nbsp; [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)         
+India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) &nbsp; [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)         
 
 ## Admin console <a name="datasources"></a> 
 Admin users have direct access to all datasource configurations, database tables, users and groups created in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in the JSON format.                              
