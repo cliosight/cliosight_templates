@@ -240,6 +240,10 @@ To provide a better user experience through the use of AI, we will add code gene
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.   
 
+Rapid application development         |  Low-code with Cliosight and AI
+:------------------------------------:|:------------------------------------:
+![](images/rapid_app_development.png) |  ![](images/cliosight_ai.png)
+
 <p align="center">
   
   <img alt="Light" src="images/rapid_app_development.png" width="50%" >
