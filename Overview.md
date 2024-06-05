@@ -241,9 +241,10 @@ To provide a better user experience through the use of AI, we will add code gene
 2. JSON body generator for element configuration.
 
 <p align="center">
-  <img alt="Light" src="images/rapid_app_development.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="images/cliosight_ai.png" width="45%">
+  
+  <img alt="Light" src="images/rapid_app_development.png" width="45%" style="border:1px solid grey">
+
+  <img alt="Dark" src="images/cliosight_ai.png" width="45%" style="border:1px solid grey">
 </p>
 
 
