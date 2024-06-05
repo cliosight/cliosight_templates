@@ -158,7 +158,7 @@ Forms, reports and dashboards are useful for data visualization. However, for de
 Since this is the backend of a Cliosight application, only admins will have access this section.      
 
 ### Trigger <a name="trigger"></a>   
-A trigger enables action on data. Since we are primarily dealing with structured data, it implies executing CRUD operations on reports.      
+A trigger enables action on data. Since we are primarily dealing with structured data, it implies executing CRUD operations on a report.      
 
 ### Sending Email Notifications <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
@@ -187,7 +187,7 @@ Let's consider a simple application that notifies trial users of a SaaS product.
 ### Workflow <a name="workflow"></a>     
 Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. Every component in Cliosight can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is powered by deep insights from high-quality data.      
 
-A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured only for one datasource at a time, fetching data from others has to be carried out through utility jobs.       
+A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured for only one datasource at a time, fetching data from others has to be carried out through utility jobs.       
 
 ### Example of a Workflow - Executing daily sales operational tasks <a name="workflowexamples"></a>        
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
@@ -236,5 +236,7 @@ response = requests.post('https://app.cliosight.com/node/reports/create', header
 ## Leveraging AI <a name="ai"></a>
 To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
 1. SQL query generator for creating reports,     
-2. JSON body generator for element configuration. 
+2. JSON body generator for element configuration.
+
+AI and ML can also expedite the process of file modification, data annotation and other activities in consumer applications like retail, healthcare and finance. With the ever increasing adoption of AI across industries, using some of the super efficient ML models in processing data can reduce our time and effort in creating the best datasets.         
 
