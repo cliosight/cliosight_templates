@@ -43,6 +43,8 @@ Users will be able to send 100 emails to valid email ids during the initial 14 d
 
 <b><h3>[Form](#form)  &nbsp;&nbsp;|&nbsp;&nbsp;      [Report](#report)   &nbsp;&nbsp;|&nbsp;&nbsp;     [Dashboard](#dashboard)   &nbsp;&nbsp;|&nbsp;&nbsp;    [Automation](#automation)</h3></b>                 
 
+<img src="images/cliosight_app.png" width="100%" />     
+
 ## Form <a name="form"></a>    
 
 A form in Cliosight is the standard method for populating tables. Data from a CSV file can also be imported through a form. It can have any number of nested sub-forms. With the 'pre_html' and 'post_html' JSON tags, it can appear like a static web page. A form is complete, except for the limitation that it can only have one submit button.    
