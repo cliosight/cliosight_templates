@@ -188,7 +188,7 @@ A job executes SQL queries at intervals for performing an ETL operation.
 Let's consider a simple application that notifies trial users of a SaaS product. Marketing admins need to send notifications everyday through email.     
 
 ### Workflow <a name="workflow"></a>     
-Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. Every component in Cliosight can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is powered by deep insights from high-quality data.      
+Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. Every component in Cliosight can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is backed by deep insights from data.      
 
 A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be configured for only one datasource at a time, fetching data from others has to be carried out through utility jobs.       
 
@@ -246,6 +246,6 @@ Current rapid application development |  Low-code development with Cliosight
 ![](images/rapid_app_development.png) |  ![](images/cliosight_ai.png)   
 
 
-As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our <b>[blog](https://medium.com/@cliosight)</b>.     
+As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to get high-quality data from distributed sources. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our <b>[blog](https://medium.com/@cliosight)</b>.     
 
 
