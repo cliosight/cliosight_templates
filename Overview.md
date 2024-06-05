@@ -161,7 +161,7 @@ Forms, reports and dashboards are useful for data visualization. However, for de
 Since this is the backend of a Cliosight application, only admins will have access to this section.      
 
 ### Trigger <a name="trigger"></a>   
-A trigger enables action on data. Since we are primarily dealing with structured data, it implies executing CRUD operations on a report.      
+A trigger enables action on data. Since we are dealing primarily with structured data, it implies executing CRUD operations on a report.      
 
 ### Sending Email Notifications <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
