@@ -93,7 +93,7 @@ group by c.id limit {{startIndex}}, {{pageSize}};
 ### Creating Graphs and Charts <a name="graphs"></a>
 Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display stats by fetching data from a report.      
      
-Chart with different datasources                    
+Chart for different datasources                    
 [Important stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
 
 SQL query for the report:     
