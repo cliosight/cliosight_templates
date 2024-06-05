@@ -242,9 +242,9 @@ To provide a better user experience through the use of AI, we will add code gene
 
 <p align="center">
   
-  <img alt="Light" src="images/rapid_app_development.png" width="45%" >
-
-  <img alt="Dark" src="images/cliosight_ai.png" width="40%" >
+  <img alt="Light" src="images/rapid_app_development.png" width="50%" >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img alt="Dark" src="images/cliosight_ai.png" width="50%" >
 </p>
 
 
