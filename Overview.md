@@ -155,7 +155,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 ## Automation <a name="automation"></a>   
 Forms, reports and dashboards are useful for data visualization. However, for developing a full-fledged cloud-hosted application, automation is necessary. Our syntax provides a shorthand for one-click addition of automated tasks. Provision for adding user-defined Javascript and Python code will be available later.     
 
-Since this is the backend of a Cliosight application, only admins will have access this section.      
+Since this is the backend of a Cliosight application, only admins will have access to this section.      
 
 ### Trigger <a name="trigger"></a>   
 A trigger enables action on data. Since we are primarily dealing with structured data, it implies executing CRUD operations on a report.      
