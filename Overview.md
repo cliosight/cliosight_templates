@@ -124,7 +124,7 @@ JSON:
 }
 ```
 ### Exporting Report data into PDF file <a name="pdf"></a>
-With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve many business use cases. For instance, sending an invoice, medical test report or a certificate through email.         
+With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve several business use cases. For instance, sending invoices, medical test reports or a certificates in bulk through email.         
      
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
 Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Custom datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
