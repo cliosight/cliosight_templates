@@ -28,8 +28,8 @@ Some of the in-built features are:
 2. Secure protocols for data and file transfer like HTTPS and SFTP.
 3. Removal of sensitive information from data with pre-defined SQL queries.     
    
-EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/)      
-India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf) [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf)     
+EU and USA: [GDPR vs. HIPPA compliance](https://www.onetrust.com/blog/hipaa-vs-gdpr-compliance/){:target="_blank"}          
+India: [The PDP Bill](https://www.meity.gov.in/writereaddata/files/The%20Digital%20Personal%20Data%20Potection%20Bill%2C%202022_0.pdf){:target="_blank"} [The EHR Standards](https://main.mohfw.gov.in/sites/default/files/17739294021483341357.pdf){:target="_blank"}     
 
 ## Admin console <a name="datasources"></a> 
 Admin users have direct access to all datasource configurations, database tables, users and groups created in an account. They can run queries directly on the configured databases through our admin console. Results are displayed in the JSON format.                              
@@ -53,16 +53,16 @@ A form in Cliosight is the standard method for populating tables. Data from a CS
       
 Pre-defined values in input fields like a drop-down menu or multi-select option may contain column values of a [Report](#report). By using a report which is not public, access to a field can also be restricted by an admin user. Two or more forms can be grouped together in a [Dashboard](#dashboard).                
 
-[Click here](form_json_format.css) to view all JSON tags that can be used within a form definition.
+[Click here](form_json_format.css){:target="_blank"} to view all JSON tags that can be used within a form definition.
 
 ### Example of Forms - A Meeting Scheduler Portal <a name="form_example"></a>        
 For an application like a "company meeting scheduler" portal, forms can be used to add contacts, groups and meeting requests. Data captured can be used to [automate](#automation) tasks like sending out emails for meeting invite, update or cancellation based on some logical decisions.          
 
-<b>[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true) ,   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true) ,   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true)</b>     
+<b>[Contact](https://app.cliosight.com/app/forms/35/show/public?noNavbar=true){:target="_blank"},   [Group](https://app.cliosight.com/app/forms/34/show/public?noNavbar=true){:target="_blank"},   [Meeting](https://app.cliosight.com/app/forms/58/show/public?noNavbar=true){:target="_blank"}</b>     
 
 Note that adding 'Groups' to a 'Contact' and a 'Meeting' are disabled. This is because the [reports](#report) listing group names defined by their respective SQL queries are not public. 
 
-**Creating the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](json_examples/meeting_form.json) )        
+**Creating the 'Meeting' form** <a name="meeting_form"></a> ( [JSON](json_examples/meeting_form.json){:target="_blank"} )        
 
 This example shows how a Cliosight form can accomodate complex scenarios of an application.    
     
@@ -79,7 +79,7 @@ This platform provides specific functionalities for files uploaded through a for
 While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
-<b>[Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)</b> is the list of all contacts with associated groups.      
+<b>[Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true){:target="_blank"}</b> is the list of all contacts with associated groups.      
       
 **SQL query:**         
 ``` sql
@@ -92,13 +92,13 @@ and (c.name = {{Name}} or {{Name}} is null)  \
 and (c.phone = {{Phone}} or {{Phone}} is null)  \
 group by c.id limit {{startIndex}}, {{pageSize}};
 ```
-[Click here](json_examples/contacts_and_groups_report.json) to view the JSON definition for this report.    
+[Click here](json_examples/contacts_and_groups_report.json){:target="_blank"} to view the JSON definition for this report.    
 
 ### Creating Graphs and Charts <a name="graphs"></a>
 Tabular data from reports can be used to plot graphs and charts using Javascript libraries like Chart.js, HighCharts, D3.js and C3.js to name a few. One such example is a line chart that depicts datasets in three different datasources, viz. in-built, containerized and fully-managed MySQL database instances across different cloud platforms. We can also display stats by fetching data from tables.      
      
 Chart for different datasources                    
-[Important stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true)    
+[Important stats](https://app.cliosight.com/app/reports/85/show/public?noNavbar=true){:target="_blank"}    
 
 SQL query for the report:     
 ```sql
@@ -145,8 +145,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
     
 ### Example of a Dashboard <a name="dashboard_example"></a>   
 
-<b>[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true)</b> has the following UI components.                
-
+<b>[Cliosight Meetings](https://app.cliosight.com/app/dashboards/49/show/public?noNavbar=true){:target="_blank"}</b> has the following UI components.                     
 1. A report displaying some important numbers          
 2. Forms to create contacts, groups and meetings requests
 3. A report for listing all meeting documents      
@@ -154,7 +153,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 5. HTML in between UI components      
 6. (Charts)           
 
-[Click here](json_examples/cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
+[Click here](json_examples/cliosight_meetings_dashboard.json){:target="_blank"} to view the JSON definition for this dashboard.
 
 ## Automation <a name="automation"></a>   
 Forms, reports and dashboards are useful for data visualization. However, for developing a full-fledged cloud-hosted application, automation is necessary. Our syntax provides a shorthand for one-click addition of automated tasks. Provision for adding user-defined Javascript and Python code will be available later.     
@@ -244,9 +243,9 @@ To provide a better user experience through the use of AI, we will add code gene
 
 Current rapid application development |  Low-code development with Cliosight
 :------------------------------------:|:--------------------------------------:
-![](images/rapid_app_development.png) |  ![](images/cliosight_ai.png)
+![](images/rapid_app_development.png{:target="_blank"}) |  ![](images/cliosight_ai.png){:target="_blank"}
 
 
-As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our <b>[blog](https://medium.com/@cliosight)</b>.     
+As AI adoption continues to grow across industries, leveraging advanced ML models for data processing can greatly reduce the time and effort required to create high-quality datasets. It can significantly accelerate file modification, data annotation, and other activities in consumer applications as described in our <b>[blog](https://medium.com/@cliosight){:target="_blank"}</b>.     
 
 
