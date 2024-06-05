@@ -69,7 +69,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 5. Multiple instances of aggregated values within the sub-form      
 
 ### File Storage <a name="afiles"></a>      
-This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Files are also equipped with access control.     
+This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Files are also equipped with access control, similar to UI components.     
       
 ## Report <a name="report"></a>          
 While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
@@ -153,10 +153,12 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 [Click here](cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
 
 ## Automation <a name="automation"></a>   
-Simple UI like forms, reports and dashboards are useful. However, for developing a full-fledged cloud-hosted application, automating tasks is necessary. Our syntax provides a shorthand for one-click addition of automation tasks. Provision for adding user-defined Javascript and Python code will be available later.   
+Forms, reports and dashboards are useful for data visualization. However, for developing a full-fledged cloud-hosted application, automation is necessary. Our syntax provides a shorthand for one-click addition of automated tasks. Provision for adding user-defined Javascript and Python code will be available later.     
+
+Since this is the backend of a Cliosight application, only admins will have access this section.      
 
 ### Trigger <a name="trigger"></a>   
-A trigger enables action on data. Since we are dealing with structured data, it implies executing operations on report data.   
+A trigger enables action on data. Since we are primarily dealing with structured data, it implies executing CRUD operations on reports.      
 
 ### Sending Email Notifications <a name="trigger_email"></a>        
 Sending notifications on events can be configured like any other backend component.   
@@ -190,7 +192,7 @@ A workflow in Cliosight is an aggregation of jobs and triggers. Since it can be 
 ### Example of a Workflow - Executing daily sales operational tasks <a name="workflowexamples"></a>        
 Consider the sales funnel that comprises sending out personalized emails to existing and potential customers on certain events at regular intervals.   
 
-## Examples of Cliosight API <a name="python"></a>     
+## Examples of Cliosight API endpoints <a name="python"></a>     
 
 ### Fetching Data from a Report           
        
