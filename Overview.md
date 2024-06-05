@@ -76,7 +76,7 @@ This example shows how a Cliosight form can accomodate complex scenarios of an a
 This platform provides specific functionalities for files uploaded through a form. For instance, validation based on size, type and resolution for images. Files are also equipped with access control, similar to UI components.     
       
 ## Report <a name="report"></a>          
-While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like any form input field, can show the column values of another report in addition to hard-coded values.     
+While a Cliosight form is a unique data entry interface, a report is simply the output of a SQL query. It supports multiple statements. Data in a report can be exported to other datasources through [jobs](#jobs). Within an enterprise application's schema, there can be numerous SQL queries, leading to countless report and filter combinations. This is because a filter, like a form input field, can show column values of another report.     
 
 ### Example of a Report - Contacts and Groups  <a name="report_example"></a> 
 <b>[Contacts & Groups](https://app.cliosight.com/app/reports/29/show/public?noNavbar=true)</b> is the list of all contacts with associated groups.      
@@ -127,7 +127,7 @@ JSON:
 With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve many business use cases. For instance, sending an invoice, medical test report or a certificate through email.         
      
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
-Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged accordingly. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
+Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Custom datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
 
 Alternatively, reports from different datasources in one or more Cliosight accounts can be used for the same purpose. The results of subsequent operations can be pushed back to connected datasources as new reports or as additional records for existing reports. This makes creating, updating and sharing datasets more accessible in a collaborative work environment.   
 
@@ -138,10 +138,10 @@ Users can restrict data input into a table using the following methods:
 3. Ensuring that no other forms or endpoints can insert data into those restricted tables.
 4. Disabling data export.       
 
-This approach ensures that the primary table and associated sub-form tables receive their inputs through the designated form or endpoint only. This real-world data can be used for generating better artificial datasets in a machine learning application.
+Through this approach an admin can ensure that the primary table and associated sub-form tables receive their inputs through the designated form (or endpoint) only. This real-world data can be used for generating better artificial datasets in a machine learning application.
        
 ## Dashboard <a name="dashboard"></a>        
-A dashboard is an aggregation of forms, reports, charts and HTML. This makes it the easiest way to create and host an analytics dashboard or a single page data application.        
+A dashboard is an aggregation of forms, reports, charts and HTML. This makes it the easiest way to create and host an analytics dashboard or a single page application.        
     
 ### Example of a Dashboard <a name="dashboard_example"></a>   
 
@@ -150,7 +150,7 @@ A dashboard is an aggregation of forms, reports, charts and HTML. This makes it 
 2. Forms to create contacts, groups and meetings requests
 3. A report for listing all meeting documents      
 4. Two reports with a global filter       
-5. HTML in between UI components      
+5. HTML in between UI components and at the beginning and end of the dashboard.     
 6. (Charts)           
 
 [Click here](json_examples/cliosight_meetings_dashboard.json) to view the JSON definition for this dashboard.
