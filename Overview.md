@@ -124,8 +124,8 @@ JSON:
 }
 ```
 ### Exporting Report data into PDF file <a name="pdf"></a>
-With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve several business use cases. For instance, sending invoices, medical test reports or a certificates in bulk through email.         
-     
+With the 'export_html' JSON tag, row data in a report can be exported instantly into a PDF file in a pre-defined format. This operation can be automated with triggers and jobs in a workflow to serve several business use cases. For instance, sending invoices, medical test reports or certificates in bulk through email.  
+        
 ### Using Reports in Jupyter Notebook <a name="jupyter"></a>
 Public or private datasets are typically downloaded as files on the hard disk of a personal computer, cloud virtual machine or storage attached to a serverless application. Data is processed, split and merged. Results can be dumped as a CSV file or plotted on a graph using matplotlib, seaborn etc. Custom datasets can also be shared using framework libraries like TensorFlow Dataset (TFDS) and `torch.utils.data` in PyTorch.     
 
@@ -185,7 +185,7 @@ Sending notifications on events can be configured like any other backend compone
 A job executes SQL queries at intervals for performing an ETL operation.   
 
 ### Example of a Job - Managing free tier users of a SaaS platform <a name="job_example"></a>     
-Let's consider a simple application that notifies trial users of a SaaS product. Marketing admins need to send notifications everyday through email.     
+Let's consider a simple application that notifies trial users of a SaaS product. Marketing professionals need to send notifications everyday through email.     
 
 ### Workflow <a name="workflow"></a>     
 Data analysis can provide pointers for fine-tuning a design through hypothesis testing. It can also help in improving the performance of a machine learning model in production with high-quality datasets. Every component in Cliosight can be created instantly in external applications. Being able to create a workflow by combining repetitive tasks using a simple JSON definition can speed up a project that is backed by deep insights from data.      
@@ -237,7 +237,7 @@ response = requests.post('https://app.cliosight.com/node/reports/create', header
 ```
 
 ## Leveraging AI <a name="ai"></a>
-To provide a better user experience through the use of AI, we will add code generators for the two types of syntaxes used within our platform.  
+To provide better user experience, we will add code generators for the two types of syntaxes used within our platform.  
 1. SQL query generator for creating reports,     
 2. JSON body generator for element configuration.   
 
