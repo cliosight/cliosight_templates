@@ -1,35 +1,35 @@
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of versatile data apps in a matter of minutes using JSON configurations and SQL for reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of micro CRM and data apps in a matter of minutes. This is made possible by providing JSON for configurations and SQL for reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
 
 ## Building Apps 
-With a bottom-up approach, developers can create versatile data applications. Each one is a collection of portable, secure and interconnected widgets that are often nested in order to provide detailed insights. The primary UI components are 
+With a bottom-up approach, developers can create versatile data applications. Each one is a collection of portable, secure and interconnected widgets that are often nested in order to provide detailed insights. They can also have HTML/CSS for a website-like appearance. The primary UI components are 
 1. Form   
 2. Report    
-3. Page    
-4. Single-page Application     
-
+3. Single-page Application     
+4. Data Application / Portal / CRM / Dashboard   
+    
 The primary back-end components are    
 1. Trigger   
 2. Job
 3. Workflow
        
-Infrastructure include       
+Infrastructure includes          
 1. Datasources (in-built and external)      
-2. Users and Groups for fine-grained access control      
-3. Storage for files of any type
+2. Users and Groups        
+3. Storage   
 4. Notifications
-5. AI chat bots to help with SQL query writing and JSON configs.
+5. AI chat bot (to help with SQL query writing and JSON configs)   
 
 <img src="images/cliosight_app.png" />
       
 ### Creating Workflows in external code      
-Data analysts use workflows to fine-tune machine learning models. Using Cliosight's workflow, users can streamline the process of managing multiple jobs and triggers in an application. By automating data management tasks directly in a external code via API and collecting data in the corresponding databases, the effort needed to manage a project becomes much  lesser than usual.     
+Data analysts use workflows to fine-tune machine learning models. Using Cliosight's workflow, a user can streamline the process of managing multiple jobs and triggers in an application. By automating data management tasks directly in external code via API they can collect data in the corresponding databases. This way the effort needed to manage a project becomes much lesser than usual.     
          
 ### Ensuring Trustworthiness
-It is indeed possible to designate a form for collecting data into a particular table in an in-built datasource. This is to ensure that the final insights derived from this data is reliable.   
+It is indeed easy to designate a form for collecting data into a particular table only in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
 These tables will be restricted in the sense that no other form can be used to populate these tables. Other ways are:     
-1. Disable manual access via admin console      
-2. Disable importing bulk CSV data into the table through the form    
+1. Disabling manual access via admin console      
+2. Disabling bulk CSV data import into the table through the form  interface     
          
 ### Sharing Datasets    
-In present times developers, data analysts and data scientists dump datasets as .csv files in their local hard disks. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries. Reports in Cliosight can be used for the same purpose. They can be accessed via Cliosight API and updated in external application code to be written back as a new report or by adding rows to an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying access control, actions on that data can be controlled by the owner of the resources.  
+In present times developers, data analysts and data scientists dump datasets as .csv files. The data is written to their local or remote disks or storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries. Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying access control, actions on that data can be controlled by the owner.    
     
