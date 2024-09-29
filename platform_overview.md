@@ -5,7 +5,7 @@ With a bottom-up approach, developers can create versatile data applications. Ea
 1. Form   
 2. Report    
 3. Single-page Application     
-4. Data Application / Portal / CRM / Dashboard   
+4. CRM or Data Application / Portal / Dashboard   
     
 The primary back-end components are    
 1. Trigger   
@@ -25,11 +25,11 @@ Infrastructure includes
 Data analysts use workflows to fine-tune machine learning models. Using Cliosight's workflow, a user can streamline the process of managing multiple jobs and triggers in an application. By automating data management tasks directly in external code via API they can collect data in the corresponding databases. This way the effort needed to manage a project becomes much lesser than usual.     
          
 ### Ensuring Trustworthiness
-It is indeed easy to designate a form for collecting data into a particular table only in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
+It is indeed easy to designate a form for collecting data into a particular table only, in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
 These tables will be restricted in the sense that no other form can be used to populate these tables. Other ways are:     
 1. Disabling manual access via admin console      
-2. Disabling bulk CSV data import into the table through the form  interface     
+2. Disabling bulk CSV data import through the form  interface     
          
 ### Sharing Datasets    
-In present times developers, data analysts and data scientists dump datasets as .csv files. The data is written to their local or remote disks or storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries. Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying access control, actions on that data can be controlled by the owner.    
+In present times developers, data analysts and data scientists dump datasets as .csv files. The data is written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries. Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be controlled by the owner.    
     
