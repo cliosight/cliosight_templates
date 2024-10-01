@@ -20,6 +20,7 @@ Infrastructure includes
 5. AI chat bot (to help with SQL query writing and JSON configs)   
 
 <img src="images/cliosight_app.png" />
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
       
 ### Creating Workflows in external code      
 Data analysts use workflows to fine-tune machine learning models. Using Cliosight's workflow, a user can streamline the process of managing multiple jobs and triggers in an application. By automating data management tasks directly in external code via API they can collect data in the corresponding databases. This way the effort needed to manage a project becomes much lesser than usual.     
