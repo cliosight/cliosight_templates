@@ -1,6 +1,7 @@
 Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of micro CRM and data apps in a matter of minutes. This is made possible by providing JSON for configurations and SQL for reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
 
 ## Building Apps 
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
 With a bottom-up approach, developers can create versatile data applications. Each one is a collection of portable, secure and interconnected widgets that are often nested in order to provide detailed insights. They can also have HTML/CSS for a website-like appearance. The primary UI components are 
 1. Form   
 2. Report    
@@ -20,7 +21,6 @@ Infrastructure includes
 5. AI chat bot (to help with SQL query writing and JSON configs)   
 
 <img src="images/cliosight_app.png" />
-<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
       
 ### Creating Workflows in external code      
 Data analysts use workflows to fine-tune machine learning models. Using Cliosight's workflow, a user can streamline the process of managing multiple jobs and triggers in an application. By automating data management tasks directly in external code via API they can collect data in the corresponding databases. This way the effort needed to manage a project becomes much lesser than usual.     
