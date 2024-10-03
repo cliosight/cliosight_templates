@@ -2,11 +2,12 @@ Cliosight is a low-code platform that allows users to quickly add SQL databases 
 
 ## Building Apps 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
-With a bottom-up approach, developers can create versatile and highly scalable applications. Each one is a collection of portable, secure and interconnected widgets that are often nested to provide detailed insights. They can also have HTML/CSS for a website-like appearance. The primary UI components are    
-1. Form       
-2. Report       
-3. Single-page Application        
-4. CRM or Data Application / Portal / Dashboard       
+With a bottom-up approach, developers can create versatile and highly scalable applications. Each one is a collection of portable, secure and interconnected widgets that are often nested to provide detailed insights. They can also have HTML/CSS for a website-like appearance.   
+The primary UI components are      
+1. Form          
+2. Report          
+3. Single-page Application          
+4. CRM or Data Application / Portal / Dashboard         
     
 The primary back-end components are    
 1. Trigger   
@@ -32,5 +33,6 @@ These tables will be restricted in the sense that no other form can be used to p
 2. Disabling bulk CSV data import through the form  interface     
          
 ### Sharing Datasets    
-In present times, data analysts and data scientists dump datasets as .csv files. This is written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries. Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be controlled by the owner.    
+In present times, data analysts and data scientists dump datasets as .csv files. This is written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries.   
+Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can share heterogeneous data with ease in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be controlled by the owner.    
     
