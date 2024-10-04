@@ -2,13 +2,15 @@ Cliosight is a low-code platform that allows users to quickly add SQL databases 
 
 ## Building Apps 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
-With a bottom-up approach, developers can create versatile and highly scalable applications. Each one is a collection of portable, secure and interconnected widgets that are often nested to provide detailed insights. They can also have HTML/CSS for a website-like appearance.     
+With a bottom-up approach, developers can create versatile and highly scalable applications. Each one is a collection of portable, secure and interconnected widgets that are often nested to provide detailed insights. They can also contain HTML/CSS for a website-like structutre, very useful for creating interactive surveys.       
      
 The primary UI components are      
 1. Form          
-2. Report          
-3. Single-page Application          
-4. CRM or Data Application / Portal / Dashboard         
+2. Report
+3. Chart      
+4. HTML/CSS      
+5. Single-page Application          
+6. CRM or Data Application / Portal / Dashboard         
     
 The primary back-end components are    
 1. Trigger   
