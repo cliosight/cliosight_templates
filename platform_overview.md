@@ -1,4 +1,4 @@
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of micro CRM and data apps in a matter of minutes. This is made possible by providing a JSON syntax for configurations and SQL for creating reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
+### Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of micro CRM and data apps in a matter of minutes. This is made possible by providing a JSON syntax for configurations and SQL for creating reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
 
 ## Building Apps 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3393ab201764817.66f852ccea1b1.png" />
