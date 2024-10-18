@@ -30,7 +30,7 @@ Data analysts use workflows to fine-tune machine learning models. By automating 
          
 ### Ensuring Trustworthiness
 It is indeed easy to designate a form or an endpoint for collecting data into a particular table only in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
-These tables will be restricted in the sense that no other form can populate the tables associated with these forms. Other ways are:     
+These tables will be restricted in the sense that no other forms can be used to enter data. Other ways are:     
 1. Disabling manual access via admin console (for admin users)        
 2. Disabling bulk CSV data import through the form interface     
          
