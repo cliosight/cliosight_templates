@@ -1,0 +1,471 @@
+{
+    "code": "survey",
+    "client_id": 2,
+    "description": "Survey Example",
+    "table": {
+        "name": "survey"
+    },
+    "sub_form_definition": {
+        "is_public": {
+            "status": true
+        },
+        "pre_html": "<div class=\"header\"><hr/><h1>Cliosight Survey</h1><hr/></div>",
+        "css_definition": "@import url('https://fonts.googleapis.com/css?family=Josefin Sans');.form {background: linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0));align-items: center;margin-left: 15%;width: 70%; font-family: Josefin Sans;color: black;font-weight: 600;} h1, h2, h3, h4, h5, h6, a, textarea, input[type=text], .select2-container input[type=text], .select2-choices, .select2-choices input .select2-input, .form-control, .footer {font-family: Josefin Sans;color: black;font-weight: 600;} p, .btn {font-family: Josefin Sans;font-weight: 600;}.form textarea {height: 120px !important;border: 1px solid black;}.btn {background: linear-gradient(45deg, black, black);color: white;border-radius: 30px;border: 1px solid black;height: 50px;width: 450px;display: block;margin: auto;}.btn:hover {background: grey;color: white;border: 2px solid grey;border-radius: 30px;}input[type=text] {box-sizing: border-box;height: 50px !important;width: 100%;border: 1px solid black;}.select2-container input[type=text] {box-sizing: border-box;height: 50px !important;width: 100%;border: 1px solid white;}.form-control {height: 50px;margin-bottom: 0px;height: 100%;padding-top: 10px;margin-bottom: 0px;border: 1px solid black;}.select2-choices {border: 1px solid black;border-radius: 5px !important;box-shadow: 5px 10px inset white !important;}select.form-control {height: 50px;}a {margin-bottom: 10px;padding: 10px;padding-top: 13px;padding-left: 20px;padding-right: 20px;border-radius: 5px;text-align: center; border: 1px solid black;}.select2-search-choice {margin-bottom: 10px;padding: 10px;padding-top: 13px;padding-left: 20px;padding-right: 20px;border-radius: 5px;text-align: center;}.centered {position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}.header h1 {font-family: Josefin Sans;font-weight: 600;font-size: 4.5vw;text-align: left;color: black;padding-top: 5px;margin-left: 16%;}.pre_html h1 {font-family: Josefin Sans;font-weight: 600;font-size: 30px;text-align: left;color: black;margin-left: 16%;padding-bottom: 10px;}hr {border: 1px solid black;width: 68%;margin-left: 16%;}h5 {text-align: left;color: black;font-weight: 700;font-family: Josefin Sans;padding-left: 2%;}.footer {text-align: center;color: white;padding-bottom: 20px;margin-bottom: -20px;margin-top: 0px;font-size: 14px;background-color: black;padding-top: 20px;}.header {display: fixed;}.pre_html {display: none;}@media only screen and (max-width:1100px) {.form {width: 100% !important;margin-left: 0% !important;}hr {width: 100% !important;margin-left: 0vw !important;}h1 {font-size: 40px !important;margin-left: auto !important;text-shadow: 0px 0px black;}.header {padding: 20px;padding-bottom: 0px;}}@media only screen and (max-width:600px) {.form{width:calc(100% + 20px) !important; margin-left:-10px !important;} .pre_html {display: fixed;}.btn {width:280px !important;}}.social_links {text-align: center;display: flex;justify-content: center;align-items: center;margin-top: 10px;}.social_links a {text-align: center;text-decoration: underline;font-family: Josefin Sans;font-size: 16px;border: 0px solid white;color: blue;}.select2-search-choice-close {border: 0px solid white !important;padding: 0px !important;}",
+        "post_html": "<div class=\"social_links\"><a href=\"https://cliosight.com\" target=\"_blank\">Website</a><a href=\"https://medium.com/@cliosight\" target=\"_blank\">Blog</a><a href=\"https://linkedin.com/in/jigisha-aryya\" target=\"_blank\">Linkedin</a><a href=\"https://github.com/cliosight/cliosight_templates/blob/main/platform_overview.md\" target=\"_blank\">GitHub</a></div></div><div id=\"w3-display-container w3-jumbo\"><h2 class=\"footer\">Copyright &#169; 2024 Cliosight. All Rights Reserved</h2></div>",
+        "inputs": [{
+            "cols": 6,
+            "input_category": "field",
+            "pre_html": "<div class=\"pre_html\"><hr/><h1>Cliosight Survey</h1><hr/></div>",
+            "column": {
+                "Field": "fullname"
+            },
+            "input_type": "text",
+            "input_label": "Enter your name",
+            "placeholder": "Full Name",
+            "validation": {
+                "isRequired": "1",
+                "maxLength": 255
+            },
+            "value": ""
+        }, {
+            "cols": 6,
+            "input_category": "field",
+            "column": {
+                "Field": "email"
+            },
+            "input_type": "text",
+            "input_label": "Enter your email",
+            "placeholder": "Email",
+            "validation": {
+                "isRequired": "1",
+                "maxLength": 255
+            },
+            "value": ""
+        }, {
+            "cols": 8,
+            "input_category": "field",
+            "column": {
+                "Field": "linkedin"
+            },
+            "input_type": "text",
+            "input_label": "Linkedin profile (optional)",
+            "placeholder": "Linkedin",
+            "validation": {
+                "isRequired": "0",
+                "maxLength": 255
+            },
+            "value": ""
+        }, {
+            "cols": 6,
+            "input_category": "field",
+            "column": {
+                "Field": "mobile_country_code"
+            },
+            "input_type": "select",
+            "input_label": "Mobile Country code",
+            "options": [{
+                "value": "",
+                "label": "Country Code"
+            }, {
+                "value": "+91",
+                "label": "+91 (India)"
+            }],
+            "validation": {
+                "isRequired": "0",
+                "maxLength": 255
+            },
+            "value": ""
+        }, {
+            "cols": 4,
+            "input_category": "field",
+            "column": {
+                "Field": "mobile_number"
+            },
+            "input_type": "text",
+            "input_label": "Mobile Number",
+            "placeholder": "10 digit number",
+            "validation": {
+                "isRequired": "1",
+                "maxLength": 255
+            },
+            "value": ""
+        }, {
+            "input_category": "field",
+            "cols": 12,
+            "column": {
+                "Field": "gender"
+            },
+            "input_type": "radio",
+            "input_label": "Gender (optional)",
+            "placeholder": "Gender",
+            "options": [{
+                "value": "M",
+                "label": "Male"
+            }, {
+                "value": "F",
+                "label": "Female"
+            }, {
+                "value": "NB",
+                "label": "Non-Binary"
+            }],
+            "validation": {
+                "isRequired": "0",
+                "maxLength": 2
+            }
+        }, {
+            "input_category": "multiselect",
+            "cols": 12,
+            "column": {
+                "Field": "city_name"
+            },
+            "input_type": "checkbox",
+            "input_label": "Office Locations (optional)",
+            "placeholder": "Office Locations",
+            "options": [{
+                "value": "DEL",
+                "label": "Delhi"
+            }, {
+                "value": "KOL",
+                "label": "Kolkata"
+            }, {
+                "value": "MUM",
+                "label": "Mumbai"
+            }, {
+                "value": "CHE",
+                "label": "Chennai"
+            }, {
+                "value": "BLR",
+                "label": "Bangalore"
+            }, {
+                "value": "OTHER",
+                "label": "Other"
+            }, {
+                "value": "REMOTE",
+                "label": "Remote"
+            }],
+            "sub_form_table": {
+                "name": "respondent_cities"
+            },
+            "join_criteria_main_table_column": {
+                "Field": "id"
+            },
+            "join_criteria_sub_table_column": {
+                "Field": "survey_id"
+            },
+            "validation": {}
+        }, {
+            "cols": 12,
+            "input_category": "multiselect",
+            "column": {
+                "Field": "skill_name"
+            },
+            "input_type": "",
+            "input_label": "Select the technologies you are familiar with",
+            "report_config": {
+                "column": "id",
+                "column_label": "skill_name",
+                "report_id": 393,
+                "term_column": "skill_name"
+            },
+            "sub_form_table": {
+                "name": "skills_survey"
+            },
+            "join_criteria_main_table_column": {
+                "Field": "id"
+            },
+            "join_criteria_sub_table_column": {
+                "Field": "survey_id"
+            },
+            "value": ""
+        }, {
+            "cols": 12,
+            "input_category": "multiselect",
+            "column": {
+                "Field": "product_name"
+            },
+            "input_type": "",
+            "input_links": [{
+                "type": "form",
+                "code": "product",
+                "label": "Add New Product Name"
+            }],
+            "onFormSubmitComplete": {
+                "report_config": {
+                    "column": "id",
+                    "column_label": "product_name",
+                    "report_code": "products",
+                    "term_column": "product_name"
+                }
+            },
+            "input_label": "Select all data management products that you have used",
+            "input_options": [],
+            "report_config": {
+                "column": "id",
+                "column_label": "product_name",
+                "report_id": 394,
+                "term_column": "product_name"
+            },
+            "sub_form_table": {
+                "name": "products_survey"
+            },
+            "join_criteria_main_table_column": {
+                "Field": "id"
+            },
+            "join_criteria_sub_table_column": {
+                "Field": "survey_id"
+            },
+            "value": ""
+        }, {
+            "input_category": "field",
+            "cols": 12,
+            "column": {
+                "Field": "prompt_engg"
+            },
+            "input_type": "checkbox",
+            "input_label": "Are you familiar with prompt engineering?",
+            "placeholder": "",
+            "options": [{
+                "value": "yes",
+                "label": "Yes"
+            }],
+            "validation": {
+                "isRequired": "0",
+                "maxLength": 3
+            },
+            "value": "no"
+        }, {
+            "cols": 6,
+            "input_category": "field",
+            "column": {
+                "Field": "job_role"
+            },
+            "input_type": "select",
+            "input_label": "Please select your core job role",
+            "placeholder": "Job role",
+            "options": [{
+                "label": "Select an option",
+                "value": ""
+            }, {
+                "label": "Functional",
+                "value": "Functional"
+            }, {
+                "label": "Technical",
+                "value": "Technical"
+            }]
+        }, {
+            "rules": [{
+                "column": "job_role",
+                "value": "Functional"
+            }],
+            "action": "show",
+            "show": false,
+            "cols": 12,
+            "input_category": "form",
+            "input_label": "Functional Job Details",
+            "sub_form_button_label": "Add functional job details",
+            "hide_sub_form_button": false,
+            "default_instances_count": 1,
+            "hide_instance_remove_button": false,
+            "sub_form_table": {
+                "name": "`functional_jobs`"
+            },
+            "join_criteria_main_table_column": {
+                "Field": "id"
+            },
+            "join_criteria_sub_table_column": {
+                "Field": "survey_id"
+            },
+            "sub_form_definition": {
+                "inputs": [{
+                    "cols": 12,
+                    "input_category": "field",
+                    "column": {
+                        "Field": "job"
+                    },
+                    "input_type": "select",
+                    "input_label": "Choose a job role",
+                    "options": [{
+                        "label": "Designer (UI/UX, Graphics)",
+                        "value": "Designer"
+                    }, {
+                        "label": "Functional Consultant",
+                        "value": "Consultant"
+                    }, {
+                        "label": "Business Analyst",
+                        "value": "Business_Analyst"
+                    }, {
+                        "label": "Manual Tester",
+                        "value": "Manual_Tester"
+                    }, {
+                        "label": "Project Manager",
+                        "value": "Project_Manager"
+                    }, {
+                        "label": "Product Manager",
+                        "value": "Product_Manager"
+                    }, {
+                        "label": "Technical Writer",
+                        "value": "Technical_Writer"
+                    }, {
+                        "label": "Operations, Sales or Marketing",
+                        "value": "Operations"
+                    }, {
+                        "label": "CPO/CMO/COO",
+                        "value": "CXO"
+                    }],
+                    "table_select_table": {
+                        "name": ""
+                    }
+                }, {
+                    "cols": 12,
+                    "input_category": "field",
+                    "column": {
+                        "Field": "experience"
+                    },
+                    "input_type": "select",
+                    "input_label": "Choose your experience",
+                    "options": [{
+                        "label": "Entry-Level",
+                        "value": "entry"
+                    }, {
+                        "label": "Mid-Level",
+                        "value": "mid"
+                    }, {
+                        "label": "Senior-Level",
+                        "value": "senior"
+                    }],
+                    "table_select_table": {
+                        "name": ""
+                    }
+                }],
+                "unique_keys": ["id"]
+            }
+        }, {
+            "rules": [{
+                "column": "job_role",
+                "value": "Technical"
+            }],
+            "action": "show",
+            "show": false,
+            "cols": 12,
+            "input_category": "form",
+            "input_label": "Technical Role Details",
+            "sub_form_button_label": "Add technical job details",
+            "hide_sub_form_button": false,
+            "default_instances_count": 1,
+            "hide_instance_remove_button": false,
+            "sub_form_table": {
+                "name": "`technical_jobs`"
+            },
+            "join_criteria_main_table_column": {
+                "Field": "id"
+            },
+            "join_criteria_sub_table_column": {
+                "Field": "survey_id"
+            },
+            "sub_form_definition": {
+                "inputs": [{
+                    "cols": 12,
+                    "input_category": "field",
+                    "column": {
+                        "Field": "job"
+                    },
+                    "input_type": "select",
+                    "input_label": "Choose a job role",
+                    "options": [{
+                        "label": "Front-end Developer",
+                        "value": "Frontend"
+                    }, {
+                        "label": "Back-end Developer",
+                        "value": "Backend"
+                    }, {
+                        "label": "QA/Test Engineer (Automation)",
+                        "value": "QA_Testing"
+                    }, {
+                        "label": "Full Stack Developer",
+                        "value": "FullStack"
+                    }, {
+                        "label": "Technical Consultant",
+                        "value": "Technical_Consultant"
+                    }, {
+                        "label": "Solutions Architect",
+                        "value": "Sol_Architect"
+                    }, {
+                        "label": "Data Scientist",
+                        "value": "Data_Scientist"
+                    }, {
+                        "label": "Data Analyst",
+                        "value": "Data_Analyst"
+                    }, {
+                        "label": "Data Architect",
+                        "value": "Data_Architect"
+                    }, {
+                        "label": "Data Engineer",
+                        "value": "Data_Engineer"
+                    }, {
+                        "label": "DevOps Engineer",
+                        "value": "DevOps"
+                    }, {
+                        "label": "Support Engineer",
+                        "value": "Support"
+                    }, {
+                        "label": "CTO/Chief Scientist",
+                        "value": "CTO/CS"
+                    }],
+                    "table_select_table": {
+                        "name": ""
+                    }
+                }, {
+                    "cols": 12,
+                    "input_category": "field",
+                    "column": {
+                        "Field": "experience"
+                    },
+                    "input_type": "select",
+                    "input_label": "Choose your experience",
+                    "options": [{
+                        "label": "Entry-Level",
+                        "value": "entry"
+                    }, {
+                        "label": "Mid-Level",
+                        "value": "mid"
+                    }, {
+                        "label": "Senior-Level",
+                        "value": "senior"
+                    }],
+                    "table_select_table": {
+                        "name": ""
+                    }
+                }],
+                "unique_keys": ["id"]
+            }
+        }, {
+            "input_category": "field",
+            "column": {
+                "Field": "location"
+            },
+            "validation": {},
+            "value": "BTS2024"
+        }, {
+            "input_category": "field",
+            "column": {
+                "Field": "timestamp"
+            },
+            "datepicker": true,
+            "timepicker": true,
+            "format": "m/d/Y H:i",
+            "step": 30,
+            "validation": {},
+            "update_value": "{{current_datetime}}",
+            "update_on_update": true
+        }],
+        "last_insert_id_key": "id",
+        "unique_keys": ["email"],
+        "submit_button_label": "Submit Survey Response",
+        "label": "Project Survey",
+        "code": "survey",
+        "description": "Survey Example"
+    },
+    "mc_users": [],
+    "mc_groups": [],
+    "datasource_id": 1
+}
