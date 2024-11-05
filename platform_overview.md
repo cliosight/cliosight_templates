@@ -1,4 +1,4 @@
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of applications in a matter of minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of applications in a matter of minutes with JSON and SQL. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
 
 ## Building Apps    
 With a bottom-up approach, developers can create highly scalable data applications. Each one is a collection of portable, secure and interconnected widgets that are often interweaved to provide detailed insights. They can also contain HTML/CSS for a website-like structure, very useful for creating interactive surveys.       
@@ -17,11 +17,11 @@ The primary back-end components are
 3. Workflow
        
 Infrastructure includes          
-1. Datasources (in-built and external)      
+1. Datasources (in-built)      
 2. Users and Groups (for access control)      
 3. Storage   
 4. Notifications
-5. AI chat bot (to help with SQL query writing and JSON configs)   
+5. AI chat bot (to help with SQL queries and JSON configs)   
 
 <img src="images/cliosight_app.png" />
       
