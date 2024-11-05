@@ -1,7 +1,7 @@
-Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of micro CRM and data apps in a matter of minutes. This is made possible by providing a JSON syntax for configurations and SQL for creating reports. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
+Cliosight is a low-code platform that allows users to quickly add SQL databases through an intuitive interface. It enables the development of applications in a matter of minutes. As we continue to evolve, we plan to expand our compatibility to include a wide range of cloud databases and data management systems.   
 
 ## Building Apps    
-With a bottom-up approach, developers can create versatile highly scalable applications. Each one is a collection of portable, secure and interconnected widgets that are often interweaved to provide detailed insights. They can also contain HTML/CSS for a website-like structure, very useful for creating interactive surveys.       
+With a bottom-up approach, developers can create highly scalable data applications. Each one is a collection of portable, secure and interconnected widgets that are often interweaved to provide detailed insights. They can also contain HTML/CSS for a website-like structure, very useful for creating interactive surveys.       
      
 The primary UI components are      
 1. Form          
@@ -9,7 +9,7 @@ The primary UI components are
 3. Chart      
 4. HTML/CSS      
 5. Single-page Application          
-6. CRM or Data Application / Portal / Dashboard         
+6. CRM/Data Application/Portal/Dashboard         
     
 The primary back-end components are    
 1. Trigger   
@@ -18,7 +18,7 @@ The primary back-end components are
        
 Infrastructure includes          
 1. Datasources (in-built and external)      
-2. Users and Groups (for role-based discretionary access control)      
+2. Users and Groups (for access control)      
 3. Storage   
 4. Notifications
 5. AI chat bot (to help with SQL query writing and JSON configs)   
