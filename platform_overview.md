@@ -29,8 +29,8 @@ Infrastructure includes
 Data analysts use workflows to fine-tune machine learning models. By automating data management tasks directly in external code via API, they can collect processed data in the corresponding databases. This way the effort needed to manage high quality data in a project becomes much lesser than usual. Using Cliosight's workflow, a user can streamline the process of managing multiple data management jobs and triggers in an application within the platform.        
          
 ### Ensuring Trustworthiness
-It is indeed easy to designate a form or an endpoint for collecting data into a particular table only in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
-These tables will be restricted in the sense that no other forms can be used to enter data. Other ways are:     
+It is indeed easy to designate a form or an endpoint for collecting data into a particular table in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
+These tables will be restricted in the sense that no other forms can be used to insert data. Other ways are:     
 1. Disabling manual access via admin console (for admin users)        
 2. Disabling bulk CSV data import through the form interface     
          
