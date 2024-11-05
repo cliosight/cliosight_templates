@@ -1,6 +1,6 @@
 Template #1 - Survey Form
 -------------------------
-## [Cliosight Survey [🔗 U+1F517 LINK SYMBOL](https://unicode-explorer.com/c/1F517)](https://app.cliosight.com/app/forms/221/show/public?noNavbar=true)   
+## [Cliosight Survey](https://app.cliosight.com/app/forms/221/show/public?noNavbar=true)   
 
 ### Highlights      
 1. Multiselect input (Skills, Product Names, Subform - Job Role)      
