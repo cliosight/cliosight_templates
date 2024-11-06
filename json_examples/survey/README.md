@@ -10,8 +10,8 @@ Template #1 - Survey Form
    select * from skills;     
    select * from products;
    ```
-3. Multiple Instances of a Subform - Job Role      
-4. Conditional Branching through rules to populate the Subform - Job Role (Functional & Technical)    
+3. Multiple Instances of a Subform - 'Job Role'      
+4. Conditional Branching (Functional versus Technical) through rules to populate the Subform - 'Job Role' drop down menus.       
 5. Link to another form "New Product Name" with access only for account users and superusers.
 6. Hidden columns - 'location' with a default value and system variable 'current timestamp'.      
 
