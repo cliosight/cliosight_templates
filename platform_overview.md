@@ -9,7 +9,7 @@ The primary UI components are
 3. Chart      
 4. HTML/CSS      
 5. Single-page Application          
-6. CRM/Data Application/Portal/Dashboard         
+6. Data Application/CRM/Portal/Analytics Dashboard         
     
 The primary back-end components are    
 1. Trigger   
@@ -17,11 +17,11 @@ The primary back-end components are
 3. Workflow
        
 Infrastructure includes          
-1. Datasources (in-built)      
-2. Users and Groups (for access control)      
+1. Datasources       
+2. Users and Groups          
 3. Storage   
 4. Notifications
-5. AI chat bot (to help with SQL queries and JSON configs)   
+5. AI chat bot       
 
 <img src="images/cliosight_app.png" />
       
@@ -31,10 +31,10 @@ Data analysts use workflows to fine-tune machine learning models. By automating 
 ### Ensuring Trustworthiness
 It is indeed easy to designate a form or an endpoint for collecting data into a particular table in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
 These tables will be restricted in the sense that no other forms can be used to insert data. Other ways are:     
-1. Disabling manual access via admin console (for admin users)        
+1. Disabling manual access via admin console               
 2. Disabling bulk CSV data import through the form interface     
          
 ### Sharing Datasets    
 In present times, data science professionals dump resultant datasets as .csv files. Test data is shared in the same manner. These are written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries.     
-Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can conviniently share heterogeneous data in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be filtered by the resource owner(s).      
+Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can conviniently share heterogeneous data in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be filtered by the resource owners.      
     
