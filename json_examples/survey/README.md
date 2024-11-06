@@ -19,5 +19,9 @@ Template #1 - Survey
    ``` sql
    select * from survey;     
    ```
-8. Charts for detailed visual analysis
+8. Charts for reports with other SQL queries
+      SQL query:
+   ``` sql
+   select * from survey where prompt_engg = 'yes' and job_role = 'Technical';     
+   ```
 
