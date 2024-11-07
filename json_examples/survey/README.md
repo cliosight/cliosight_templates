@@ -11,7 +11,7 @@
    select * from products;
    ```
 3. Link to another form "New Product Name" with access only for account users.    
-4. Conditional branching in field 'job_role' (Functional versus Technical versus Managerial) based on rules, to populate a subform's 'job' and 'experience' drop down menu values.     
+4. Conditional branching on field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate a subform's 'job' and 'experience' drop down menu values.     
 5. Multiple Instances of the subform - 'Job Role'.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
 7. Hidden columns - 'location' with a default value and system variable 'timestamp'.
