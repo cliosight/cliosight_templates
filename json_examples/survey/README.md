@@ -10,10 +10,10 @@ Template #1 - Survey
    select * from skills;     
    select * from products;
    ```
-3. Multiple Instances of a Subform - 'Job Role'      
-4. Conditional branching in field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate the Subform's 'job' and 'experience' drop down menu values.
-5. Dynamic addition of a new field on selection of an option value - 'Other' in subform.       
-6. Link to another form "New Product Name" with access only for account users.
+3. Link to another form "New Product Name" with access only for account users.
+4. Multiple Instances of a Subform - 'Job Role'      
+5. Conditional branching in field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate the subform's 'job' and 'experience' drop down menu values.
+6. Dynamic addition of a new field on selection of an option value - 'Other' in subform.       
 7. Hidden columns - 'location' with a default value and system variable 'timestamp'.
 8. Report for results of survey        
    SQL query:
