@@ -21,12 +21,16 @@
    ```
 9. Charts for reports with other more specific SQL queries. For instance,         
    ``` sql
-   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role' from survey where prompt_engg = 'yes' and job_role = 'Functional'     
+   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role'
+   from survey where prompt_engg = 'yes' and job_role = 'Functional'     
    union          
-   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role' from survey where prompt_engg = 'yes' and job_role = 'Technical'          
+   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role'
+   from survey where prompt_engg = 'yes' and job_role = 'Technical'          
    union
-   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role' from survey where prompt_engg = 'no' and job_role = 'Functional'     
+   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role'
+   from survey where prompt_engg = 'no' and job_role = 'Functional'     
    union          
-   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role' from survey where prompt_engg = 'no' and job_role = 'Technical'
+   select count(*) as 'Total Count', prompt_engg as 'Prompt Engg.', job_role as 'Job Role'
+   from survey where prompt_engg = 'no' and job_role = 'Technical'
    ```
 
