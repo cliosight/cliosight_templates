@@ -20,8 +20,7 @@ Template #1 - Survey
    select * from survey;     
    ```
 8. Charts for reports with other SQL queries. For instance,         
-      SQL query:
    ``` sql
-   select * from survey where prompt_engg = 'yes' and job_role = 'Technical';     
+   select count(*) from survey where prompt_engg = 'yes' and job_role = 'Technical';     
    ```
 
