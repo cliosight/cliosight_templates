@@ -1,7 +1,7 @@
 # Template #1 - Survey 
      
-## <h3>&#128221;[Survey Form](https://app.cliosight.com/app/forms/221/show/public?noNavbar=true)</h3>      
-## <h3><i class='fas fa-laptop' style='font-size:48px;color:red'></i>[Cliosight Survey App](https://app1.cliosight.com/app/applications/17/show)</h3>        
+## [Survey Form](https://app.cliosight.com/app/forms/221/show/public?noNavbar=true)              
+## [Cliosight Survey App](https://app1.cliosight.com/app/applications/17/show)            
 
 ### Highlights      
 1. Multiselect input fields (Cliosight Skills and Data Management Product Names).
