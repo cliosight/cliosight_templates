@@ -1,7 +1,6 @@
 {
     "default_page_id": "157",
-    "css_definition": "@import url('https://fonts.googleapis.com/css?family=Josefin Sans'); body, .form {font-family: Josefin Sans !important; font-weight: 900 !important; font-size: 16px;} .bg-primary {background-color: black !important;} div.form {border: 0px solid lightgrey !important} .navbar-dark .navbar-nav .nav-link {color: white !important} .navbar-dark .navbar-nav .nav-link.active {color: yellow !important} div.col-md-12.border {border: 0.5px solid lightgrey !important;} p {background: linear-gradient(45deg, black, black);} .border {
-border: 0.2px solid white !important; }",
+    "css_definition": "@import url('https://fonts.googleapis.com/css?family=Josefin Sans'); body, .form {font-family: Josefin Sans !important; font-weight: 900 !important; font-size: 16px;} .bg-primary {background-color: black !important;} div.form {border: 0px solid lightgrey !important} .navbar-dark .navbar-nav .nav-link {color: white !important} .navbar-dark .navbar-nav .nav-link.active {color: yellow !important} div.col-md-12.border {border: 0.5px solid lightgrey !important;} p {background: linear-gradient(45deg, black, black);} .border {border: 0.2px solid white !important;",
     "nav_links": [
         {
             "label": "Survey Form",
