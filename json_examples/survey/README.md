@@ -36,7 +36,7 @@
     FROM survey 
     WHERE prompt_engg = 'yes' AND job_role = 'Functional'
     HAVING count(*) > 0
-    ) AS combined_results
-    ORDER BY Total_Count DESC;  
+   ) AS combined_results
+   ORDER BY Total_Count DESC;  
    ```
 
