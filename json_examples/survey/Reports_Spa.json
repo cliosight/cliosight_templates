@@ -1,0 +1,21 @@
+{
+    "is_public": {
+        "status": true
+    },
+    "post_html": "<div id=\"w3-display-container w3-jumbo\"><h2 class=\"footer\">Copyright &#169; 2024 Cliosight. All Rights Reserved</h2></div>",
+    "css_definition": "@import url('https://fonts.googleapis.com/css?family=Josefin Sans');.form{background: linear-gradient(45deg, rgba(0,0,0,0), rgba(29, 200, 205, 0));}.form{align-items: center; margin: 0%; border: 2px solid white !important; }.form {font-family: Josefin Sans; color: grey; } .form tbody{background: linear-gradient(45deg, lightyellow, lightyellow);} .btn{background: black;border-radius: 5px; border: 1px solid black; height:37px; width: 100px; margin-bottom: 10px; margin-top: 12px;} input[type=text] {box-sizing: border-box; border: 2px solid #ccc; height:40px !important; font-weight: 900; font-family: Josefin Sans !important; border: 2px solid black; }input[type=text]:focus {border: 2px solid #555;} .form-control {border: 1px solid grey; height: 50px; margin-bottom: -10px;} .select2-choices {border: 1px solid grey !important;  border-radius: 2px !important; box-shadow: 5px 10px inset white !important; background: linear-gradient(45deg, white, white);} p {background: linear-gradient(45deg, black, black);} .border {border: 1px solid black !important} textarea {margin-bottom: -20px !important; height: 6em !important} .select2-container .select2-default {height: 30px !important; font-size: 14px !important; box-shadow: 5px 10px inset white !important; vertical-align: center; border: 1px solid black !important; font-family: Josefin Sans; background: linear-gradient(45deg, white, white);} .select2-container {height: 32px !important;} .select2-choices .select2-chosen {font-size: 14px !important; font-family: Josefin Sans; margin-bottom: 5px;} .select2-input .select2-default {width: 100px; border: 0px solid white; } p, tfoot {border: 0px solid white !important; background: white! important; font-size: 14px} .mc-report-table-wrapper {font-weight: 900; font-family: Josefin Sans !important; color: black;  font-size: 16px !important; border: 0px solid black;} div .form .border {border: 1px solid black !important; } div .form .border {border: 1px solid black !important; } .text-left {background: white ! important; font-weight: 900; font-family: Josefin Sans !important; color: black;} table tr td { border: 1px solid black !important; background: white !important} thead tr {border: 2px solid black !important;} table tfoot {border: 2px solid black !important;} .table-bordered, .table-bordered td, .table-bordered th {border: 1px solid black !important; } app-render-report .border {border: 0px solid white !important; } p {background: linear-gradient(45deg,black, black);} .select2-default {height: 30px !important; font-size: 14px !important; box-shadow: 5px 10px inset white !important; vertical-align: center; } .select2-chosen {font-size: 14px !important}  form app-mc-filter-menu-item div div div {font-size: 14px !important; margin:2px !important} thead {border: 1px solid black !important} input#lineHeight{height: 35px; border: 1px solid black; font-size: 14px !important;border-radius: 0px;} div label.control-label {font-size: 14px !important;} .navbar {display: none !important;} div.form.border.p-1.mt-3.min-100-vh.dashboard-container {border-bottom-color: 0px solid black !important;} .footer {text-align: center;color: white;padding-bottom: 20px;margin-bottom: -20px;margin-top: 0px;font-size: 14px;background-color: black;padding-top: 20px;}",
+    "pre_html": "<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'><br/><div class=\"\"><div class=\"align-items-center\"><img src=\"https://app1.cliosight.com/app/node/reports/77/fileData/nameColumn/file_name/uuidNameColumn/uuid_file_name/public?tableRow=%257B%2522id%2522%253A23%257D\" width=\"100%\"/> </div></div>",
+    "hideToolbar": true,
+
+    "widget_groups": [{
+        "widgets": [{
+            "id": "467",
+            "cols": 12,
+            "removeReportCss": false
+        }, {
+            "id": "468",
+            "cols": 12,
+            "removeReportCss": false
+        }]
+    }]
+}
