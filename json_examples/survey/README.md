@@ -14,28 +14,29 @@
 4. Conditional branching on field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate a subform's 'job' and 'experience' drop down menu values.     
 5. Multiple Instances of the subform - 'Job Role'.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
-7. Hidden columns - 'location' with a default value, system variable 'timestamp' and current logged in Cliosight user 'logged_in_user'.
+7. Hidden columns - 'location' with a default value, system variable 'timestamp' and the logged in Cliosight user 'logged_in_user'.
 8. Report for results of the survey        
    ``` sql
    SELECT * FROM survey;     
    ```
-9. Charts for reports with other more specific SQL queries. For instance,         
+9. Charts for reports with other more specific SQL queries.
+   For instance, the chart to display primary work profile count of those who are faimilar with prompt engineering, may have the following SQL query:         
    ``` sql   
    SELECT * FROM (
-    SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
-    FROM survey 
-    WHERE prompt_engg = 'yes' AND job_role = 'Managerial'
-    HAVING count(*) > 0
-    UNION
-    SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
-    FROM survey 
-    WHERE prompt_engg = 'yes' AND job_role = 'Technical'
-    HAVING count(*) > 0
-    UNION
-    SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
-    FROM survey 
-    WHERE prompt_engg = 'yes' AND job_role = 'Functional'
-    HAVING count(*) > 0
+   SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
+   FROM survey 
+   WHERE prompt_engg = 'yes' AND job_role = 'Functional'
+   HAVING count(*) > 0
+   UNION
+   SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
+   FROM survey 
+   WHERE prompt_engg = 'yes' AND job_role = 'Technical'
+   HAVING count(*) > 0
+   UNION
+   SELECT count(*) as Total_Count, prompt_engg as Prompt_Engg, job_role as Job_Role
+   FROM survey 
+   WHERE prompt_engg = 'yes' AND job_role = 'Managerial'
+   HAVING count(*) > 0
    ) AS combined_results
    ORDER BY Total_Count DESC;  
    ```
