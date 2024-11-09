@@ -7,8 +7,8 @@
 2. Listing Skill names and Product names through 'public' reports - Skill_Names.json & Product_Names.json.    
    SQL queries:
    ``` sql
-   select * from skills;     
-   select * from products;
+   SELECT * FROM skills;     
+   SELECT * FROM products;
    ```
 3. Link to another form "New Product Name" with access only for account users.    
 4. Conditional branching on field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate a subform's 'job' and 'experience' drop down menu values.     
@@ -17,7 +17,7 @@
 7. Hidden columns - 'location' with a default value, system variable 'timestamp' and current logged in Cliosight user 'logged_in_user'.
 8. Report for results of the survey        
    ``` sql
-   select * from survey;     
+   SELECT * FROM survey;     
    ```
 9. Charts for reports with other more specific SQL queries. For instance,         
    ``` sql   
