@@ -4,7 +4,7 @@
 
 ### Highlights      
 1. Multiselect input fields (Cliosight Skills and Data Management Product Names).
-2. Listing Skill names and Product names through 'public' reports - Skill_Names.json & Product_Names.json.    
+2. Listing Skill names and Product names through 'public' reports - Skill_Names_Report.json & Product_Names_Report.json.    
    SQL queries:
    ``` sql
    SELECT * FROM skills;     
@@ -12,7 +12,7 @@
    ```
 3. Link to another form "New Product Name" with access only for account users.    
 4. Conditional branching on field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate a subform's 'job' and 'experience' drop down menu values.     
-5. Multiple Instances of the subform - 'Job Role'.                     
+5. Multiple Instances of the subform - 'Job Role'. Subforms are defined within another form, while reports can be used using an ID or code.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
 7. Hidden columns - 'location' with a default value, system variable 'timestamp' and the logged in Cliosight user 'logged_in_user'.
 8. Report for results of the survey        
