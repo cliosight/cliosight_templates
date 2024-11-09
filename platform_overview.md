@@ -26,7 +26,7 @@ Infrastructure includes
 <img src="images/cliosight_app.png" />
       
 ### Creating Workflows in external code      
-Data analysts use workflows to fine-tune machine learning models. By automating data management tasks directly in external code via API, they can collect processed data in the corresponding databases. This way the effort needed to manage high quality data in a project becomes much lesser than usual. Using Cliosight's workflow, a user can streamline the process of managing multiple data management jobs and triggers in an application within the platform.        
+Data analysts use workflows to fine-tune machine learning models. By automating data management tasks directly in external code via API, they can collect processed data in the corresponding databases. The effort needed to manage high quality data in a project, thereby becomes much lesser than usual. Using Cliosight's workflow, a user can streamline the process of managing multiple data management jobs and triggers in an application within the platform.        
          
 ### Ensuring Trustworthiness
 It is indeed easy to designate a form or an endpoint for collecting data into a particular table in an in-built datasource. This is to ensure that the final insights derived from this data is highly reliable.   
@@ -35,6 +35,6 @@ These tables will be restricted in the sense that no other forms can be used to 
 2. Disabling bulk CSV data import through the form interface     
          
 ### Sharing Datasets    
-In present times, data science professionals dump resultant datasets as .csv files. Test data is shared in the same manner. These are written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries.     
+Data science professionals dump resultant datasets as .csv files. Test data is shared in the same manner. These are written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries.     
 Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can conviniently share heterogeneous data in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be filtered by the resource owners.      
     
