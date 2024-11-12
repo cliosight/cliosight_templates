@@ -251,7 +251,7 @@
                 "Field": "survey_id"
             },
             "validation": {
-                "isRequired": "0"
+                "isRequired": "1"
             },
             "value": ""
         }, {
