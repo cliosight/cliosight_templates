@@ -1,0 +1,17 @@
+{
+    "is_public": {
+        "status": true
+    },
+    "pre_html": "<div class=\"header\"><hr/><h1>Cliosight Survey Form</h1><hr/><div> <img src=\"https://live-www-ischool.pantheon.berkeley.edu/sites/default/files/styles/banner_image/public/event_banner_image/capstone_project_banner-01.png?itok=W7J0A-sJ\" width=\"100%\"></div>",
+    "css_definition": " .navbar {display: none !important;} .border {border: 1px solid white !important; }.header h1 {font-family: Josefin Sans;font-weight: 600;font-size: 4.5vw;text-align: left;color: black;padding-top: 5px;margin-left: 20px;}hr {border: 1px solid black;width: 100%;margin-left: 0px;margin-right:0px;}.footer {text-align: center;color: white;padding-bottom: 20px;margin-bottom: -20px;margin-top: 0px;font-size: 14px;background-color: black;padding-top: 20px;}.header {display: fixed; width:80%; margin-left:10%;} @media only screen and (max-width:1100px) {.header {display: fixed; margin-left:20px !important; width:calc(100% - 40px) !important;} hr {width: 100% !important;margin-left: 0vw !important;}h1 {font-size: 25px !important;margin-left: auto !important;text-shadow: 0px 0px black;}.header {padding: 0px;padding-bottom: 0px;padding-top:0px;} .btn{width:100%;}}.social_links {text-align: center;display: flex;justify-content: center;align-items: center;margin-top: 10px;}.social_links a {text-align: center;text-decoration: underline;font-family: Josefin Sans;font-size: 16px;border: 0px solid white;color: blue;}.select2-search-choice-close {border: 0px solid white !important;padding: 0px !important;}@media only screen and (max-width:600px) {.header {display: fixed; width:100% !important; margin-left:0% !important;margin-right:0% !important;} .header h1 {font-size:30px !important; text-align: center !important ;}img{display:fixed;}} ",
+    "hideToolbar": true,
+    "post_html": "",
+    "widget_groups": [{
+        "widgets": [{
+            "type": "form",
+            "id": "221",
+            "cols": 12,
+            "removeFormCss": false
+        }]
+    }]
+}
