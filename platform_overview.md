@@ -8,10 +8,9 @@ The primary UI components are
 2. Report
 3. Chart      
 4. HTML/CSS      
-5. Single-page Application          
-6. Data Application/CRM/Portal/Analytics Dashboard         
-    
-The primary back-end components are    
+5. Single-page Application
+       
+The primary back-end components are 
 1. Trigger   
 2. Job
 3. Workflow
@@ -36,5 +35,6 @@ These tables will be restricted in the sense that no other forms can be used to 
          
 ### Sharing Datasets    
 Data science professionals dump resultant datasets as .csv files. Test data is shared in the same manner. These are written to their local or remote disks or cloud storage attached to serverless infrastructure where Jupyter is installed and accessed remotely. They can also share public and private datasets using the in-built Tensorflow or Pytorch libraries.     
-Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can conviniently share heterogeneous data in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be filtered by the resource owners.      
+     
+Reports in Cliosight can be used for the same purpose. They can be updated in an external application's code to be written back as a new report or as additional rows in an existing report. The major advantages of this approach is that, users can conviniently share heterogeneous data in a collaborative work environment with diverse technical skills. By applying role-based access control, actions on that data can be restricted by the resource owners.      
     
