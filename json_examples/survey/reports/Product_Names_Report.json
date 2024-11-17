@@ -3,5 +3,6 @@
     "is_public": {
         "status": true
     },
+    "disable_chart_view": true,
     "columns": {}
 }
