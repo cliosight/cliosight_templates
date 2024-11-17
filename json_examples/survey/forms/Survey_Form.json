@@ -642,7 +642,7 @@
         }, {
             "input_category": "field",
             "cols": 12,
-            "pre_html": "<br/>",
+            "pre_html": "",
             "column": {
                 "Field": "message"
             },
