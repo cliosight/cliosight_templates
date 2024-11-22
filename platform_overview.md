@@ -6,9 +6,8 @@ With a bottom-up approach, developers can create versatile and highly scalable d
 The primary UI components are      
 1. Form          
 2. Report
-3. Chart      
-4. HTML/CSS      
-5. Single-page Application
+3. Chart       
+4. Single-page Application
        
 The primary back-end components are 
 1. Trigger   
