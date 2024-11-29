@@ -1,4 +1,4 @@
-## Template #1 - Project Issue Tracker       
+## Template #2 - Project Issue Tracker       
      
 ### [Project Details Form](https://app1.cliosight.com/app/forms/271/show/public?noNavbar=true)  |  [Project Management SPA](https://app1.cliosight.com/app/pages/160/show?noNavbar=true)  |  [Team Management SPA](https://app1.cliosight.com/app/pages/161/show?noNavbar=true)  |  [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
 
