@@ -13,7 +13,7 @@
 8. Specifying chart views in report configurations.      
 9. Using a dropdown menu in charts to reduce the number of parameters and to change metrics.      
 10. Forms with an import link to upload bulk data from a .csv file.      
-11. Updating the value of a column or sending email notification on certain events using triggers.      
+11. Updating the value of a column and sending email notifications on certain events using triggers.      
 12. Using a "helper_input" field in a form to provide a dynamic dropdown or to create empty space.      
 13. Incorporating "html" tags in a Single Page Application (SPA).    
 
