@@ -20,7 +20,7 @@
 ### Application Schema    
 The project issue tracker application template is inspired from bug tracker platforms used in companies. For example Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements and tracking work progress with individual effort of team members working together on a project.            
 
-###Primary entities
+### Primary entities
 ----------------       
 1. Project (with sub categories)    
 2. Project Requirement (with sub categories)     
