@@ -721,7 +721,7 @@
                 "isRequired": "1",
                 "maxLength": 255
             },
-            "value": "{{current_user}}"
+            "value": "{{token.userEmail}}"
         }],
         "last_insert_id_key": "id",
         "unique_keys": ["email"],
