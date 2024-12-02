@@ -38,8 +38,8 @@ The project issue tracker application template is inspired from bug tracker plat
 4. A Contact can have multiple Groups and managers.     
 5. A supervisor or a manager has to approve the leaves filed by team members who will get notified through email. Similarly, on approval or rejection, the team member receives an email.
 6. Monthly salaries (or payouts) can also be calculated for Employees, Freelancers or Contract workers, based on the project manager's decision to make deductions if necessary against a leave.
-7. Files uploaded through any of the forms can only be plain text files, PDFs, images or videos of certain minimum/maximum size and resolution if applicable. Multiple file uploaded is not supported.     
-8. Data uploaded through the import functionality is also restricted to a maximum size.       
+7. Files uploaded through any of the forms can only be plain text files, PDFs, images or videos of certain minimum/maximum size and resolution if applicable. Multiple file upload is not supported.     
+8. Data uploaded through the import functionality in forms is also restricted to a maximum size.       
    
    
 
