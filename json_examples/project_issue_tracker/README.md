@@ -1,9 +1,9 @@
 ## Template #2 - Project Issue Tracker       
      
-### [Project Details Form](https://app1.cliosight.com/app/forms/270/show/public?noNavbar=true)  |   [Projects-Requirements Drill down Report](https://app1.cliosight.com/app/reports/484/show/public?noNavbar=true)  | [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
+### [Project Detail Form](https://app1.cliosight.com/app/forms/270/show/public?noNavbar=true)  |   [Project-Requirement Drill down Report](https://app1.cliosight.com/app/reports/484/show/public?noNavbar=true)  | [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
 
 ### Highlights      
-1. Reports with links to update a row through a form and to access another report demonstrating limited and infite drilldown.            
+1. Reports with links to update a row through a form and to access another report demonstrating  drilldown.            
 2. Reports with filters showing values from other reports, including both single and multi-select options.     
 3. Reports with filters for a range of values such as timestamp, count, price, and other similar quantitative metrics.      
 4. Row deletion functionality in a report.       
