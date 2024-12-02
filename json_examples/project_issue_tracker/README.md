@@ -1,6 +1,6 @@
 ## Template #2 - Project Issue Tracker       
      
-### [Project Details Form](https://app1.cliosight.com/app/forms/270/show/public?noNavbar=true)  |  [Project Management SPA](https://app1.cliosight.com/app/pages/160/show?noNavbar=true)  |  [Team Management SPA](https://app1.cliosight.com/app/pages/161/show?noNavbar=true)  |  [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
+### [Add a Project](https://app1.cliosight.com/app/forms/270/show/public?noNavbar=true)  |   [Projects-Requirements Drill down](https://app1.cliosight.com/app/reports/484/show/public?noNavbar=true)  | [Project Management SPA](https://app1.cliosight.com/app/pages/160/show?noNavbar=true)  |  [Team Management SPA](https://app1.cliosight.com/app/pages/161/show?noNavbar=true)  |  [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
 
 ### Highlights      
 1. Reports with links to update a row through a form and to access another report demonstrating limited and infite drilldown.            
