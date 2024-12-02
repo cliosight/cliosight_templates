@@ -21,7 +21,7 @@
 The project issue tracker application template is inspired from bug tracker platforms used in companies. For example Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements and tracking work progress with individual effort of team members working together on a project.            
 
 ### Primary entities
-----------------       
+    
 1. Project (with sub categories)    
 2. Project Requirement (with sub categories)     
 3. Team Member Contact
@@ -31,7 +31,7 @@ The project issue tracker application template is inspired from bug tracker plat
 7. Employee     
 
 ### Assumptions of the design     
--------------------------      
+   
 1. A Project can have multiple project requirements and associated projects. A Project Requirement similarly, can have multiple projects and related requirements to indicate dependency.       
 2. A project team can be composed of employees, interns, business partners, clients and other stakeholers who might assume managerial roles within the team.    
 3. A Team Member Contact is a record maintained by the project manager for co-ordinating with team members while assigning tasks.      
