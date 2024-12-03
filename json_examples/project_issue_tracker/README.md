@@ -6,16 +6,15 @@
 1. Reports with links to update a row through a form and to access another report demonstrating  drilldown.            
 2. Reports with filters showing values from other reports, including both single and multi-select options.     
 3. Reports with filters for a range of values such as timestamp, count, price, and other similar quantitative metrics.      
-4. Row deletion functionality in a report.       
-5. Grouping related columns under a broader category in a report.      
-6. Global filters for two or more reports that share one or more common columns.     
-7. File upload form with validations, and sharing files within a report.      
-8. Specifying chart views in report configurations.      
-9. Using a dropdown menu in charts to reduce the number of parameters and to change metrics.      
-10. Forms with an import link to upload bulk data from a .csv file.      
-11. Updating the value of a column and sending email notifications on certain events using triggers.      
-12. Using a "helper_input" field in a form to provide a dynamic dropdown or to create empty space.      
-13. Incorporating "html" tags in a Single Page Application (SPA).    
+4. Row deletion functionality in a report.             
+5. Global filters for two or more reports that share one or more common columns.     
+6. File upload form with validations, and sharing files within a report.      
+7. Specifying chart views in report configurations.      
+8. Using a dropdown menu in charts to reduce the number of parameters and to change metrics.      
+9. Forms with an import link to upload bulk data from a .csv file.      
+10. Updating the value of a column and sending email notifications on certain events using triggers.      
+11. Using a "helper_input" field in a form to provide a dynamic dropdown or to create empty space.      
+12. Incorporating "html" tags in a Single Page Application (SPA).    
 
 ### Application Schema    
 The project issue tracker application template is inspired from bug tracker platforms like Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements, tasks, work progress and individual effort by team members working together on a project.            
