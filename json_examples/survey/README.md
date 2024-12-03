@@ -3,7 +3,7 @@
 ### [Survey Form](https://app1.cliosight.com/app/forms/221/show/public?noNavbar=true)  |  [Survey Results SPA](https://app1.cliosight.com/app/pages/158/show?noNavbar=true)  |  [Cliosight Survey App](https://app1.cliosight.com/app/applications/17/show)            
 
 ### Highlights      
-1. Multiselect input fields (Cliosight Skills and Data Management Product Names) with references stored in the `respondent_cities` table.       
+1. Multiselect input fields (Cliosight Skills and Data Management Product Names) and checkbox input with references stored in the `respondent_cities` table.       
 2. Listing Skill names and Product names through 'public' reports - Skill_Names_Report.json & Product_Names_Report.json.    
    SQL queries:
    ``` sql
