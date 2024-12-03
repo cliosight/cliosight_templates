@@ -18,7 +18,7 @@
 13. Incorporating "html" tags in a Single Page Application (SPA).    
 
 ### Application Schema    
-The project issue tracker application template is inspired from bug tracker platforms like Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements, assigning tasks and tracking work progress and individual effort by team members working together on a project.            
+The project issue tracker application template is inspired from bug tracker platforms like Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements, tasks, work progress and individual effort by team members working together on a project.            
 
 ### Primary entities
     
