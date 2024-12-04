@@ -40,4 +40,8 @@
    ) AS combined_results
    ORDER BY Total_Count DESC;  
    ```
+### Assumptions of the design      
+1. All of the input fields accept alphanumeric characters. There is no specific type checking such as only numbers, valid email or hyperlink and similar data.
+2. Recent work experience is in the same type of work profile. There is no option to include a mix of technical, functional and managerial experiences.
+3. Extra data application development product names list in the text field can be of a max of 255 characters.    
 
