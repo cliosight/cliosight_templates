@@ -3,7 +3,7 @@
 ### [Project Detail Form](https://app1.cliosight.com/app/forms/270/show/public?noNavbar=true)  |   [Project-Requirement Drill down Report](https://app1.cliosight.com/app/reports/484/show/public?noNavbar=true)  | [Project Issue Tracker App](https://app1.cliosight.com/app/applications/1/show)            
 
 ### Highlights      
-1. Reports with links to update a row through a form, to access another report demonstrating  drilldown and to download results into a .csv file.                 
+1. Reports with links to update a row through a form, to access another report for drilldown or to download results into a .csv file.                 
 2. Reports with filters showing values from other reports, including both single and multi-select options.     
 3. Reports with filters for a range of values such as timestamp, count, price, and other similar quantitative metrics.
 4. Ability to sort the values of a report column.    
@@ -13,7 +13,7 @@
 8. Specifying chart views in report configurations.      
 9. Using a dropdown menu in charts to reduce the number of parameters and to change metrics.      
 10. Forms with an import link to upload bulk data from a .csv file.      
-11. Updating the value of a column and sending email notifications on certain events using triggers.      
+11. Updating the value of a column or sending email notifications on certain events using triggers.      
 12. Using a "helper_input" field in a form to provide a dynamic dropdown or to create empty space.      
 13. Incorporating "html" tags in a Single Page Application (SPA).    
 
