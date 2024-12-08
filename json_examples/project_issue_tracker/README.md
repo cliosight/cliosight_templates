@@ -8,7 +8,7 @@
 3. Reports with filters for a range of values such as timestamp, count, price, and other similar quantitative metrics.
 4. Ability to sort the values of a report column.    
 5. Row deletion functionality in a report.             
-6. Global filters for two or more reports that share one or more common columns.     
+6. Global filters connecting two or more reports that share common columns.     
 7. File upload form with validations, and sharing files within a report.      
 8. Specifying chart views in report configurations.      
 9. Using a dropdown menu in charts to reduce the number of parameters and to change metrics.      
