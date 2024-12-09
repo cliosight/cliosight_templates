@@ -3,13 +3,13 @@
 ### [Revenue Detail Form](https://app1.cliosight.com/app/forms/180/show/public?noNavbar=true)  |   [Revenue and Expenses Summary Weekly Report](https://app1.cliosight.com/app/reports/279/show/public?noNavbar=true)  | [Revenue & Expenses Portal](https://app1.cliosight.com/app/applications/10/show)            
 
 ### Highlights      
-1. Forms with mathematical expressions for dynamic calculation of numeric field values.     
-2. Export HTML for generating PDF files from rows in a report.     
-3. Using SQL queries for intermediate results in forms.      
-4. Grouping together columns under a broader category in a report.        
-5. Adding multiple cloud datasources.       
-6. Scheduling jobs to perform ETL.
-7. Combining two or more tasks to create a workflow through a combination of jobs and triggers.      
+1. Forms with mathematical expressions for dynamic calculation of numeric field values.
+2. Using inline forms to update the value of a report cell without editing the row.      
+3. Export HTML for generating PDF files from rows in a report.     
+4. Using SQL queries for intermediate results in a form.      
+5. Grouping together two or more columns under a broader category in a report.        
+6. Adding multiple cloud datasources.       
+7. Scheduling jobs to perform ETL.     
 8. Creating users and groups to grant specific permissions in an account.        
 
 ### Application Schema    
