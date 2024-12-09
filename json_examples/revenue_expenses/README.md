@@ -25,6 +25,6 @@ The revenue and expenses portal template is inspired by the bookkeeping tasks th
 7. Document (with sub categories)
 
 ### Assumptions of the design     
-1. It is presumed that there is only manual entry of sale, purchase order and other trasactions with the help of this portal.
-2. The merchant has to merge data periodically from two or more cloud databases for a combined view.
-3. The merchant uses another SaaS solution to run marketing campaigns using email or Whatsapp messages.     
+1. It is presumed that there is only manual entry of sale, purchase order and other transaction with the help of this portal.
+2. The merchant has to merge data periodically from two or more cloud databases for a combined view.     
+3. The merchant uses another SaaS solution to run marketing campaigns using email or Whatsapp.     
