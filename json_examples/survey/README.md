@@ -15,7 +15,7 @@
 5. Multiple Instances of the subform - 'Job Role'. Subforms are defined within another form, while reports can be used using an ID or code.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
 7. Hidden columns - 'location' with a default value, system variable 'timestamp' and the logged in Cliosight user 'logged_in_user'.
-8. Report for results of the survey        
+8. Report for results of the survey with the ability to download the file.             
    ``` sql
    SELECT * FROM survey;     
    ```
@@ -41,7 +41,7 @@
    ORDER BY Total_Count DESC;  
    ```
 ### Assumptions of the design      
-1. All of the input fields accept alphanumeric characters. There is no specific type checking such as only numbers, valid email or hyperlink and similar data.
-2. Recent work experiences should be in the same category of work profile. There is no option to include a mix of technical, functional and managerial experiences.
+1. All of the input fields accept alphanumeric characters. There is no strict type checking such as for phone numbers, valid email or hyperlink and similar data.
+2. Recent work experiences can only be in the same category of work profile. There is no option to include a mix of technical, functional and managerial experiences.
 3. Extra data application development product names list in the text field can be of a max of 255 characters.    
 
