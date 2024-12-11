@@ -17,12 +17,12 @@ The revenue and expenses portal template is inspired by the bookkeeping tasks th
 
 ### Primary entities
 1. Client
-2. Inventory (with sub categories)
+2. Inventory 
 3. Payer
 4. Payee
 5. Revenue     
 6. Expense
-7. Document (with sub categories)
+7. Document 
 
 ### Assumptions of the design     
 1. It is presumed that there is only manual entry of sale, purchase order and other transactions with the help of this portal.
