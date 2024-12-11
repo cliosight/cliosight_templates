@@ -14,13 +14,13 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 3. Customer     
 4. Supplier    
 5. Stock        
-6. Service (with sub categories)   
+6. Service   
 7. Order
 8. Expense   
 9. Vehicle Brand
 10. Vehicle Variant     
 11. Vehicle Type     
-12. Document (with sub categories)   
+12. Document    
 
 ### Assumptions of the design     
 1. 
