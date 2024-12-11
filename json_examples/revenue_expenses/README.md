@@ -22,7 +22,8 @@ The revenue and expenses portal template is inspired by the bookkeeping tasks th
 4. Payee
 5. Revenue     
 6. Expense
-7. Document 
+7. Invoice 
+8. Document 
 
 ### Assumptions of the design     
 1. It is presumed that there is only manual entry of sale, purchase order and other transactions with the help of this portal.
