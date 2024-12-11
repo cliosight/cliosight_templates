@@ -22,8 +22,8 @@ The project issue tracker application template is inspired from bug tracker plat
 
 ### Primary entities
     
-1. Project (with sub categories)    
-2. Project Requirement (with sub categories)     
+1. Project     
+2. Project Requirement      
 3. Team Member Contact
 4. Group     
 5. Team Member Absence Record
