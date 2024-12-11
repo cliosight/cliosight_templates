@@ -6,7 +6,7 @@
 1.       
 
 ### Application Schema    
-The auto repair shop CRM template is a modified version of the 'Tight the Nut' Garage web application. It was created as part of our user research while engaging with local small businesses. We noticed our potential users' preference for mobile apps and conventional CRM software, such as Vyapar, Khatabook, and Pagaarbook, for staff management and other purposes. Therefore, we decided to create our own CRM that incorporates features from all these different solutions.                
+The auto repair shop CRM template is a modified version of the 'Tight the Nut' Garage web application. It was created as a part of our user research while engaging with local small businesses. We noticed our potential users' preference for mobile apps and conventional CRM software, such as Vyapar, Khatabook, and Pagaarbook, for staff management and other purposes. Therefore, we decided to create our own CRM that incorporates features from all these different solutions.                
 
 ### Primary entities
 1. Job Card
