@@ -15,7 +15,7 @@
 5. Multiple Instances of the subform - 'Job Role'. Subforms are defined within another form, while reports can be used using an ID or code.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
 7. Hidden columns - 'location' with a default value, system variable 'timestamp' and the logged in Cliosight user 'logged_in_user'.
-8. Report for results of the survey with the ability to download the file.             
+8. Report for results of the survey with the ability to export the data to a csv file.             
    ``` sql
    SELECT * FROM survey;     
    ```
