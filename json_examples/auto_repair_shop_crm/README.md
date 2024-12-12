@@ -11,17 +11,18 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 
 ### Primary entities
 1. Job Card
-2. Invoice    
-3. Customer     
-4. Supplier    
-5. Stock        
-6. Service   
-7. Order
-8. Expense   
-9. Vehicle Brand
-10. Vehicle Variant     
-11. Vehicle Type     
-12. Document    
+2. Invoice
+3. Bill     
+4. Customer     
+5. Supplier    
+6. Stock        
+7. Service   
+8. Order
+9. Expense   
+10. Vehicle Brand
+11. Vehicle Variant     
+12. Vehicle Type     
+13. Document    
 
 ### Assumptions of the design     
 
