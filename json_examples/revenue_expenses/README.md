@@ -3,7 +3,7 @@
 ### [Revenue Detail Form](https://app1.cliosight.com/app/forms/180/show/public?noNavbar=true)  |   [Revenue and Expenses Summary Weekly Report](https://app1.cliosight.com/app/reports/279/show/public?noNavbar=true)  | [Revenue & Expenses Portal](https://app1.cliosight.com/app/applications/10/show)            
 
 ### Highlights      
-1. Forms with mathematical expressions for dynamic calculation of numeric field values.
+1. Forms with mathematical expressions for dynamic calculation of numeric field values like taxes, discounted price and arrears.   
 2. Using inline forms to update the value of a report cell without editing the row.      
 3. Export HTML for generating PDF files from rows in a report.     
 4. Using SQL queries for intermediate results in a form.      
