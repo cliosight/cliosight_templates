@@ -23,5 +23,7 @@ The house rent application template was created to solve a personal problem. Mos
 7. Files    
 
 ### Assumptions of the design     
-1.    
+1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.
+2. We are looking for a fully reliable method of collecting data through our form interface.
+3. Computer vision models provide an acceptable percentage of accuracy.  
 
