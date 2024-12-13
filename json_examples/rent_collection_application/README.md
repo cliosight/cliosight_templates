@@ -8,7 +8,7 @@
 3. Processing images in reports.  
 4. Configuring forms, reports, triggers and jobs in external applications.  
 5. Accessing forms with QR codes.
-6. Forms with restricted tables.   
+6. Forms for restricted tables.   
 
 ### Application Schema    
 The house rent application template was created to solve a personal problem. People in cities still use pen and paper to keep an account of partial payments, expenses and details of tenants. Payment is mostly done through cash. Receipts are often missing. We wanted to a way to solve these problems for ourselves and others who have tenants.   
