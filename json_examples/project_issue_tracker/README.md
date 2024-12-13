@@ -37,7 +37,7 @@ The project issue tracker application template is inspired from bug tracker plat
 3. A Team Member Contact is a record maintained by the project manager for co-ordinating with team members while assigning tasks.      
 4. A team member can belong to multiple Groups and report to more than one manager.     
 5. A supervisor or a manager has to approve the leaves filed by team members. Approvers will get notified through email. Similarly, on approval or rejection the team member will receive an update through email.
-6. Monthly salaries (or payouts) can also be calculated for Employees, Freelancers or Contract workers based on the project manager's decision to make deduction against a leave.
+6. Monthly salaries (or payouts) can also be calculated for Employees, Freelancers or Contract workers based on the project manager's decision to make deductions against a leave.
 7. Files uploaded through any of the forms can only be plain text files, PDFs, images or videos of certain minimum/maximum size and resolution if applicable. Multiple file upload is not supported.     
 8. Data uploaded through the import functionality in forms is also restricted to a maximum size.       
    
