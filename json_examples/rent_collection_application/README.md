@@ -9,14 +9,13 @@
           
 
 ### Primary entities
-1. Tenant     
-2. Host
-3. Revenue      
-4. Expense
-5. Inventory (House)     
-6. Rent Receipt
-7. Invoice
-8. Files (Water Meter Pictures)
+1. Payer       
+2. Payee     
+3. Revenue       
+4. Expense        
+5. Inventory (Services and Items)             
+6. Rent Receipt       
+7. Files    
 
 ### Assumptions of the design     
 1.    
