@@ -3,7 +3,7 @@
 ### [Job Card Detail Form](https://app1.cliosight.com/app/forms/113/show/public?noNavbar=true)  |   [Job Cards](https://app1.cliosight.com/app/reports/140/show/public?noNavbar=true)  | [Auto Repair Shop CRM](https://app1.cliosight.com/app/applications/4/show)            
 
 ### Highlights      
-1. Updating various tables and notifying through email.
+1. Updating various tables and notifying through email by scheduling jobs.   
 2. Complex queries in reports with variables for fetching values entered in report forms.         
 
 ### Application Schema    
