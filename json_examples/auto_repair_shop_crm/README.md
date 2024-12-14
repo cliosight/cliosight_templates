@@ -1,9 +1,9 @@
 ## Template #4 - Auto Repair Shop CRM                
      
-### [Job Card Detail Form](https://app1.cliosight.com/app/forms/113/show/public?noNavbar=true)  |   [Revenue and Expenses Summary](https://app1.cliosight.com/app/reports/132/show/public?noNavbar=true)  | [Auto Repair Shop CRM](https://app1.cliosight.com/app/applications/4/show)            
+### [Job Card Detail Form](https://app1.cliosight.com/app/forms/113/show/public?noNavbar=true)  |   [Job Cards](https://app1.cliosight.com/app/reports/140/show/public?noNavbar=true)  | [Auto Repair Shop CRM](https://app1.cliosight.com/app/applications/4/show)            
 
 ### Highlights      
-1. Scheduling jobs for updating various tables and notifying through email.
+1. Updating various tables and notifying through email.
 2. Complex queries in reports with variables for fetching values entered in report forms.         
 
 ### Application Schema    
