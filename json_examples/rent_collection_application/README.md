@@ -6,7 +6,7 @@
 1. Creating a workflow with  triggers and jobs for completing related tasks in a particular sequence.  
 2. Using public report data in an external application.
 3. Processing images in reports.  
-4. Configuring forms, reports, triggers and jobs in external applications.  
+4. Configuring a form, report, trigger, job or workflow in an external application.  
 5. Accessing a form with varying  pre-filled values in certain fields through QR codes.
 6. Forms for restricted tables.   
 
