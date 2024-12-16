@@ -1,6 +1,6 @@
 ## Template #3 - Revenue and Expenses Portal            
      
-### [Revenue Detail Form](https://app1.cliosight.com/app/forms/180/show/public?noNavbar=true)  |   [Revenue and Expenses Summary by Day](https://app1.cliosight.com/app/reports/278/show/public?noNavbar=true)  | [Revenue & Expenses Portal](https://app1.cliosight.com/app/applications/10/show)            
+### [Revenue Detail Form](https://app1.cliosight.com/app/forms/180/show/public?noNavbar=true)  |   [Revenue and Expenses Summary by Inventory](https://app1.cliosight.com/app/reports/273/show/public?noNavbar=true)  | [Revenue & Expenses Portal](https://app1.cliosight.com/app/applications/10/show)            
 
 ### Highlights      
 1. Forms with mathematical expressions for dynamic calculation of numeric field values like taxes, discounted price and arrears.   
