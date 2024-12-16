@@ -12,7 +12,7 @@
    ```
 3. Link to another form "New Product Name" with access only for account users.    
 4. Conditional branching on field 'job_role' (Functional versus Technical versus Managerial) based on rules to populate a subform's 'job' and 'experience' drop down menu values.     
-5. Multiple Instances of the subform - 'Job Role'. Subforms are defined within another form, while reports can be used using an ID or code.                     
+5. Multiple instances of the subform - 'Job Role'. Subforms can be defined within another form, while reports can be used using an ID or code.                     
 6. Dynamic addition of a new field on selection of an option value - 'Other' in subform's 'job' drop down menu.       
 7. Hidden columns - 'location' with a default value, system variable 'timestamp' and the logged in Cliosight user 'logged_in_user'.
 8. Report for results of the survey with the ability to export the data to a csv file.             
@@ -41,7 +41,7 @@
    ORDER BY Total_Count DESC;  
    ```
 ### Assumptions of the design      
-1. All of the input fields accept alphanumeric characters. There is no strict type checking such as for phone numbers, valid email or hyperlink and similar data.
-2. Recent work experiences can only be in the same category of work profiles. There is no option to include a mix of technical, functional and managerial experiences.
-3. Extra data application development product names list in the text field can be of a max of 255 characters.    
+1. All of the input fields accept alphanumeric characters. There is no strict type checking or valid format, such as phone number, email or URL and other similar data.
+2. Recent work experiences can only be in the same category of work profiles. There is no way to include a mix of technical, functional and managerial experiences.
+3. The text field for extra data application development product names can accomodate upto 255 characters.    
 
