@@ -4,7 +4,7 @@
 
 ### Highlights      
 1. Updating various tables and notifying through email by scheduling jobs.   
-2. Complex queries in reports. Using variables in queries, forms and reports.      
+2. Complex queries in reports, using variables in queries and configurations.      
 3. Online payment integration.    
 
 ### Application Schema    
