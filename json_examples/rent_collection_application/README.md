@@ -1,6 +1,6 @@
 ## Template #5 - House Rent Collection App                    
      
-### [Rent Detail Form](https://app1.cliosight.com/app/forms/217/show/public?noNavbar=true)  |   [Meter Reading Photos](https://app1.cliosight.com/app/reports/392/show/public?noNavbar=true)  | [House Rent Collection App](https://app1.cliosight.com/app/applications/11/show)            
+### [Rent Calculation Form](https://app1.cliosight.com/app/forms/217/show/public?noNavbar=true)  |   [Meter Reading Photos](https://app1.cliosight.com/app/reports/392/show/public?noNavbar=true)  | [House Rent Collection App](https://app1.cliosight.com/app/applications/11/show)            
 
 ### Highlights      
 1. Creating a workflow with  triggers and jobs for completing related tasks in a particular sequence.  
