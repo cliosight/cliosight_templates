@@ -11,7 +11,7 @@
 6. Forms for restricted tables.   
 
 ### Application Schema    
-The house rent application template was created to solve a personal problem. Most house owners are familiar with messaging services like whatsapp, share pictures in social media, but still prefer to use pen and paper to keep an account of  payments, expenses and personal details of tenants. Transactions are mostly done in cash. Receipts and identify documents are often missing. We wanted a way to solve these problems for ourselves and others who have tenants.   
+The house rent application template was created to solve a personal problem. Most house owners are familiar with messaging services like whatsapp, and sharing pictures in social media. But still prefer to use pen and paper to keep an account of  payments, expenses and personal details of tenants. Transactions are mostly done in cash. Receipts and identify documents are often missing. We wanted a way to solve these problems for ourselves and others who have tenants.   
 
 ### Primary entities
 1. Payer (Tenant or Owner)      
@@ -23,7 +23,7 @@ The house rent application template was created to solve a personal problem. Mos
 7. Files (Meter Reading Pictures, Identity Documents of Tenants, Agreements)         
 
 ### Assumptions of the design     
-1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.
-2. We want a fully reliable method for collecting data through forms that are accessed by a maintenance staff member.     
-3. Computer vision models provide an acceptable percentage of accuracy.  
+1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.   
+2. We want a fully reliable method for collecting data through forms that are accessed by a maintenance staff member.      
+3. Computer vision models provide an acceptable percentage of accuracy.     
 
