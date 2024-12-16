@@ -42,6 +42,6 @@
    ```
 ### Assumptions of the design      
 1. All of the input fields accept alphanumeric characters. There is no strict type checking such as for phone numbers, valid email or hyperlink and similar data.
-2. Recent work experiences can only be in the same category of work profile. There is no option to include a mix of technical, functional and managerial experiences.
+2. Recent work experiences can only be in the same category of work profiles. There is no option to include a mix of technical, functional and managerial experiences.
 3. Extra data application development product names list in the text field can be of a max of 255 characters.    
 
