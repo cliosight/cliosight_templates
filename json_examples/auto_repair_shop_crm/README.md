@@ -4,7 +4,8 @@
 
 ### Highlights      
 1. Updating various tables and notifying through email by scheduling jobs.   
-2. Complex queries in reports with variables for fetching values entered in report forms.         
+2. Complex queries in reports with variables for fetching values entered in report forms.
+3. Online payment integration.    
 
 ### Application Schema    
 The auto repair shop CRM template is a modified version of 'Tight the Nut' Garage web application. It is similar to the Revenue and Expenses template, but was created as a part of our user research while engaging with local offline businesses. We noticed our potential users' preference for mobile apps and conventional CRM software such as Vyapar app, Khatabook and Pagaarbook for billing, accounting, HRM and other purposes. Therefore, we decided to create our own application that incorporates certain features from all these different solutions.                
@@ -22,9 +23,12 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 10. Vehicle Brand
 11. Vehicle Variant     
 12. Vehicle Type     
-13. Document    
+13. Documents - Driving License, Insurance, Identity card of garage staff     
 
 ### Assumptions of the design     
+1. The owner of a vehicle can change on resale, and so a vehicle registration number is not an immutable property of the customer like payment details and phone number.
+2. There can be inventory associated with a service like car shampoo with car wash and vice versa is also applicable, for example, car music system with installation.
+3. The shop does not provide any any AI solution for automatic damage assessment for insurance claim by a customer.       
 
 
 
