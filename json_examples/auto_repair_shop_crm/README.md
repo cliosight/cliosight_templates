@@ -26,7 +26,7 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 13. Documents - Driving License, Insurance, Identity card of garage staff     
 
 ### Assumptions of the design     
-1. The owner of a vehicle can change on resale, and so a vehicle registration number is not an immutable property of the customer like payment details or phone number.
+1. The owner of a vehicle can change on resale, and so a vehicle registration number is not an immutable property of a customer like payment details or phone number.
 2. There can be inventory associated with a service like car shampoo with car wash and vice versa is also applicable, for example, car music system with installation.
 3. The shop does not provide any any AI solution for automatic damage assessment for insurance claim using photos or videos.       
 
