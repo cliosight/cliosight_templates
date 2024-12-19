@@ -41,7 +41,7 @@
    ORDER BY Total_Count DESC;  
    ```
 ### Assumptions of the design      
-1. All of the input fields accept alphanumeric characters. There is no strict type checking or valid format, such as phone number, email or URL and other similar data.
+1. All of the input fields accept alphanumeric characters. There is no strict type checking for valid format, such as phone number, email or URL and other similar data.
 2. Recent work experiences can only be in the same category of work profiles. There is no way to include a mix of technical, functional and managerial experiences.
 3. The text field for extra data application development product names can accomodate upto 255 characters.    
 
