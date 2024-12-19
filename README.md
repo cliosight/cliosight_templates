@@ -1,4 +1,4 @@
-# Cliosight
+# <b>Cliosight</b>
 
 Build the best data applications with low-code. A brief overview of the platform is given <b>[here](platform_overview.md)</b>.<br/><b>[Sign up](https://app1.cliosight.com/app/forms/221/show/public?noNavbar=true)</b> today!
       
