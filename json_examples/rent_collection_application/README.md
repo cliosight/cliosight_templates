@@ -25,5 +25,5 @@ The house rent application template was created to solve a personal problem. Mos
 ### Assumptions of the design     
 1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.   
 2. We want a fully reliable method for collecting data through forms that are accessed by a maintenance staff member.      
-3. Computer vision models provide an acceptable percentage of accuracy.     
+3. Trained computer vision models provide an acceptable percentage of accuracy.     
 
