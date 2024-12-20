@@ -23,7 +23,7 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 10. Vehicle Brand
 11. Vehicle Variant     
 12. Vehicle Type     
-13. Documents - Driving License, Insurance, Identity card copy of garage staff     
+13. Documents - Driving License, Insurance, Identity card soft copy    
 
 ### Assumptions of the design     
 1. The owner of a vehicle can change on resale, and so a vehicle registration number is not an immutable property of a customer like payment details or phone number.
