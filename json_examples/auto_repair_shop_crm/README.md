@@ -28,8 +28,8 @@ The auto repair shop CRM template is a modified version of 'Tight the Nut' Garag
 ### Assumptions of the design     
 1. The owner of a vehicle can change on resale, and so a vehicle registration number is not an immutable property of a customer like payment details or phone number.
 2. There can be inventory associated with a service like car parts with servicing and vice versa is also applicable, for example, replacement charges for new tyres.    
-3. The shop does not provide any any AI solution for automatic damage assessment for insurance claim using photos or videos.
-4. The solution does not automate identity document verification or machine translation for Indian languages.  
+3. The shop does not provide any any AI damage assessment for insurance claim using photos or videos.
+4. The solution does not automate identity document verification with  machine translation for Indian languages.  
 
 
 
