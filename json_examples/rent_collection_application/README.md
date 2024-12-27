@@ -8,7 +8,9 @@
 3. Processing images in a report.  
 4. Configuring a form, report, trigger, job or workflow in an external application.  
 5. Accessing a form with varying  pre-filled values in certain fields through QR codes.
-6. Forms for restricted tables.   
+6. Forms for restricted tables.     
+7. Generating an apk.
+8. Writing the SQL queries and JSON configs using an AI chat bot.    
 
 ### Application Schema    
 The house rent application template was created to solve a personal problem. Most house owners are familiar with messaging services like Whatsapp, and spend time sharing pictures in social media. But when it comes to managing tenants, they prefer to use pen and paper to keep an account of  payments, expenses and personal details of tenants. Transactions are mostly done in cash. Receipts and identity documents are often missing. We wanted a way to solve these problems for ourselves and others who have tenants.   
@@ -23,7 +25,7 @@ The house rent application template was created to solve a personal problem. Mos
 7. Files (Meter Reading Pictures, Identity Documents of Tenants, Agreements)         
 
 ### Assumptions of the design     
-1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.   
-2. We want a fully reliable method for collecting data through forms that are accessed by a maintenance staff member.      
+1. The user is located in a remote city in India where electricity and water meters are not IoT enabled.     
+2. We want a reliable method for collecting data through forms that are accessed by a maintenance staff member.      
 3. Trained computer vision models provide an acceptable percentage of accuracy.     
 
