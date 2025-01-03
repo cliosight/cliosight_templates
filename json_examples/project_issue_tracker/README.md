@@ -16,7 +16,7 @@
 11. Updating the value of a column or sending email notifications on certain events using triggers.      
 12. Using a "helper_input" field in a form to provide a dynamic dropdown or to create empty space.      
 13. Incorporating "html" tags in a Single Page Application (SPA).      
-14. Using Cliosight workspace to organize widgets and automation code.      
+14. Using Cliosight workspace to organize widget and automation configurations.      
 
 ### Application Schema    
 The project issue tracker application template is inspired from bug tracker platforms like Jira, Asana, Bugzilla, Zoho Bug tracker etc. Although the overall design is quite simple, it can serve the basic purpose of sharing project requirements, tasks, work progress and individual effort by team members working together on a project.            
