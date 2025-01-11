@@ -33,7 +33,7 @@ The project issue tracker application template is inspired by bug tracker platfo
 
 ### Assumptions of the design     
    
-1. A Project can have multiple project requirements and associated projects. A Project Requirement similarly can have multiple projects and related requirements to track dependencies.       
+1. A Project can have multiple project requirements and associated projects. A Project Requirement similarly can be associated with multiple projects and other requirements for tracking dependencies.       
 2. A project team can be composed of employees, clients, contract workers, business partners and other stakeholders who might assume managerial roles within the team.    
 3. A Team Member Contact is a record maintained by the project manager for co-ordinating with team members while assigning tasks.      
 4. A team member can belong to multiple Groups and report to more than one manager.     
