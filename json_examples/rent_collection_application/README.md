@@ -9,7 +9,7 @@
 4. Configuring a form, report, trigger, job or workflow in an external application.  
 5. Accessing a form with varying  pre-filled values in certain fields through QR codes.
 6. Forms for restricted tables.     
-7. Generating an apk.
+7. Generating an apk file for the web application.     
 8. Writing the SQL queries and JSON configs using an AI chat bot.    
 
 ### Application Schema    
