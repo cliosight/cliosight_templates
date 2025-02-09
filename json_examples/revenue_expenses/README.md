@@ -14,7 +14,7 @@
 9. Creating users and groups to grant specific permissions in an account.        
 
 ### Application Schema    
-The revenue and expenses portal template is inspired by the bookkeeping tasks that eCommerce merchants need to manage while operating their online stores. In India, there are small, medium and large retail sellers that sell their consumer products through eCommerce platforms like Amazon, Flipkart, Etsy, Facebook Marketplace, Shopify and others. While some of them provide extensive tools to track important data, there is no convinient way for generating portable reports and artifacts. These include bills, invoices, receipts, pay slip, statements, contracts etc. that are often a part of the order lifecycle or business operation. This solution is primarily focused on such practical aspects of an eCommerce business.             
+The revenue and expenses portal template is inspired by the bookkeeping tasks that eCommerce merchants need to manage while operating their online stores. In India, there are small, medium and large retail sellers that sell their consumer products through eCommerce platforms like Amazon, Flipkart, Etsy, Facebook Marketplace, Shopify and others. While some of them provide extensive tools to track important data, there is no convinient way for generating portable reports and artifacts. These include bills, invoices, receipts, pay slips, statements, contracts etc. that are often a part of the order lifecycle or business operation. This solution is primarily focused on such practical aspects of an eCommerce business.             
 
 ### Primary entities
 1. Buyer/Customer/Client    
