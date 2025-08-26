@@ -13,7 +13,7 @@
 8. Writing the SQL queries and JSON configs using an AI chat bot.    
 
 ### Application Schema    
-Most housing agents are familiar with messaging services like Whatsapp, and spend time sharing pictures in social media. But when it comes to managing tenants, they prefer to use pen and paper to keep an account of  payments, expenses and personal details of tenants. Transactions are mostly done in cash. Receipts and identity documents are often missing. We wanted a way to solve these problems for a number of housing agents running rental businesses.   
+This template was created to solve a personal problem. Most housing agents and owners are familiar with messaging services like Whatsapp, and spend time sharing pictures in social media. But when it comes to managing tenants, they prefer to use pen and paper to keep an account of payments, expenses and personal details of tenants. Transactions are mostly done in cash. Receipts and identity documents are often missing. We wanted a way to solve these problems for a number of housing agents running rental businesses.   
 
 ### Primary entities
 1. Agent
